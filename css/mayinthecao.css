@@ -1,0 +1,1945 @@
+@font-face{
+    font-family: Roboto, sans-serif;
+    src: url(roboto/Roboto-Regular.ttf);
+    font-display: swap;
+}
+@font-face{
+    font-family: Roboto-Medium, sans-serif;
+    src: url(roboto/Roboto-Medium.ttf);
+    font-display: swap;
+}
+@font-face{
+    font-family: Roboto-Bold, sans-serif;
+    src: url(roboto/Roboto-Bold.ttf);
+    font-display: swap;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+.container-mayin{
+    float: left;
+    width: 100%;
+    /* padding-top: 100px; */
+}
+
+.container-mayin .row{
+    margin: auto;
+    width: 1170px;
+}
+.container-mayin h1{
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #282828;
+    text-align: center;
+    padding-top: 20px;
+}
+.col-md-4{
+    float: left;
+    width: 100%;
+}
+/* .col-md-4 .inf-tc{
+    width: 23.5%;
+    float: left;
+    margin-right: 17px;
+} */
+.col-md-4 .inf-tc .img-mayin img{
+    width: 100%;
+    height: 218px;
+    object-fit: cover;
+}
+.col-md-4 .inf-tc .title h2{
+text-align: left;
+padding: 0 5px;
+margin: 0;
+font-size: 16px;
+line-height: 25px;
+}
+.col-md-4 .inf-tc .title a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #282828;
+}
+.col-md-4 .inf-tc .gia-tien a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FF7A00;
+}
+.col-md-9{
+    float: none;
+    width: 1349px;
+    /* background: #F9F9F9;
+    margin-bottom: 15px; */
+    margin: auto;
+}
+.col-md-9 .col-12{
+    float: left;
+    width: 21.5%;
+    margin-right: 55px;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 59px;
+}
+.col-md-9 .group-iteam{
+    margin: auto;
+    width: 90%;
+}
+.col-md-9 .col-12 .item-img{
+    height: 60px;
+}
+.col-md-9 .col-12 .tieude p{
+    font-family: Lucida Calligraphy;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.col-md-9 .col-12 .nd{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.col-md-9 .col-12 .nd p{
+    font-family: Lucida Calligraphy;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #777777;
+}
+
+
+
+.box{
+    margin: 20px 15px;
+    float: left;
+    width: 22%;
+    /* background: #F6F6F6;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 5px 0px 0px; */
+}
+.inf-tc {
+    display: block;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    padding: 0;
+    float: left;
+    text-decoration: none;
+    transition: color 0.1s ease-in,background-color 0.1s ease-in;
+}
+.inf-tc:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.06);
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+    z-index: 1;
+    background-color: transparent;
+    
+}
+.inf-tc:hover:before {
+    opacity: 1;
+    
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.inf-tc:hover .form {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+.form {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 365px !important;
+    height: 100%;
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.15); */
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form:hover{
+    border: 1px solid #D6D6D6;
+}
+.inf-tc .info .gia{
+    text-align: left;
+}
+.inf-tc .info .gia .gia-tien{
+    padding-left: 5px;
+    /* padding-top: 10px; */
+}
+.col-md-4 .inf-tc .title a:hover{
+    color: #3F98BC;
+}
+.img-mayin img{
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;    
+    max-width: 100%;
+    border: 0;
+    height: 246px;
+}
+.inf-tc .info{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    /* box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25); */
+}
+.col-md-9 .tieude{
+    padding-top: 15px;
+}
+.banner-buttom{
+    background: #F9F9F9;
+    float: left;
+    margin-bottom: 15px;
+}
+.box_see_3{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 28px;
+}
+.box_see_3 #see_more, .box_see_3 #hide_text{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    cursor: pointer;
+}
+.box_see_3 #see_more{
+    background: url(/images/may_in_the/xemthem.png)no-repeat;
+    padding-left: 25px;
+}
+.mayinthcao .info{
+    height: 100px;
+}
+.mayinthcao .img-mayin{
+    padding-top: 100%;
+}
+/* chi tiết máy in thẻ cào */
+.detail-container{
+    float: left;
+    width: 100%;
+    padding-top: 0;
+}
+.row-detail{
+    margin: auto;
+    width: 1170px;
+}
+.row-detail h1{
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #282828;
+    margin: 0;
+    padding-top: 20px;
+    float: left;
+}
+.row-detail .banner_bb{
+    background: linear-gradient(46.19deg, #A7BFE8 5.66%, #6190E8 94.35%);
+    width: 100%;
+    height: 8px;
+    float: left;
+}
+.content-detail{
+    float: left;
+    width: 100%;
+}
+.thongtinsp{
+    float: left;
+    width: 100%;
+}
+.thongtinsp .images-pr{
+    float: left;
+    width: 40%;
+    padding: 16px 45px;
+}
+.slider-nav{
+    padding-top: 42px;
+}
+.thongtinsp .inf-pr{
+    float: left;
+    width: 60%;
+}
+.banner{
+    width: 1347px;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+.thongtinsp .inf-pr .name-pr{
+    float: left;
+    width: 100%;
+}
+.price-pr{
+    background: #FF7A00;
+    box-shadow: inset 0px 0px 6px rgba(198, 96, 3, 0.67);
+    border-radius: 5px;
+    float: left;
+    width: 64%;
+    text-align: center;
+    padding: 19px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+}
+.price-pr span{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.quantit-pr, .city-pr, .submit{
+    float: left;
+    width: 100%;
+}
+.quantit-pr span, .city-pr span{
+    float: left;
+    width: 100%;
+    padding-bottom: 16px;
+}
+#city{
+    background: #F7F7F7;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 64%;
+    border: none;
+    margin-bottom: 26px;
+    margin-top: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('/images/may_in_the/select.png');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    height: 45px;
+}
+.inf-pr .submit{
+    background: #26B903;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 0;
+    width: 64%;
+    padding-top: 18px;
+}
+.inf-pr .submit .lienhe{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.slider-nav img{
+    width: 79px;
+    height: 63px;
+}
+.chitietsp{
+    float: left;
+    width: 100%;
+    background: #F6F6F6;
+    padding: 22px;
+    margin-top: 65px;
+}
+.name-tt{
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+.chitietsp .sp-inf{
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #555555;
+}
+.chitietsp .sp-inf:nth-child(2){
+    border-left: 1px solid#E7E7E7;
+    border-right: 1px solid#E7E7E7;
+}
+.chitietsp .description-pr{
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+}
+.chitietsp .description-pr span{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.thongso{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+.chitietsp .description-pr p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.thongso-pr{
+    float: left;
+    width: 100%;
+    padding: 26px 0;
+}
+.thongso-pr .left, .thongso-pr .right{
+    float: left;
+    width: 50%;
+    padding-right: 63px;
+}
+.thongso-pr .left{
+    border-right: 2px solid #fff;
+}
+.thongso-pr .left p,
+.thongso-pr .right p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: #000000;
+}
+.thongso-pr .right{
+    padding-left: 63px;
+}
+.danhgia-binhluan{
+    float: left;
+    width: 100%;
+}
+.comment-pr{
+    float: left;
+    width: 100%;
+}
+.box-rating{
+    float: left;
+    width: 33%;
+    padding-top: 68px;
+}
+.comment-pr .form, .comment-pr h3, #list_comment{
+    float: right;
+    width: 67%;
+}
+.comment-pr .form{
+    border: 1px solid #D5D5D5;
+    border-radius: 10px;
+    padding: 25px 15px;
+}
+.comment-pr h3{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ACACAC;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 44px;
+}
+.form_comment{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 17px;
+    margin-right: 38px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.content-com .form_comment{
+    width: 100%;
+    margin-right: 0;
+    height: 96px;
+}
+.danhgia-binhluan .form_group{
+    float: right;
+}
+.danhgia-binhluan .form_group #btn_comment{
+    background: #1CA799;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 8px 15px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.rate_range {
+    background: #FFAF14;
+    height: 100%;
+}
+.row-detail form {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
+.rating_stars {
+    direction: rtl;
+    font-size: 20px;
+    unicode-bidi: bidi-override;
+    display: inline-block;
+    margin-left: 14px;
+}
+#rating-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.rating_stars input {
+    opacity: 0;
+    position: relative;
+    left: -17px;
+    z-index: 2;
+    cursor: pointer;
+}
+.rating_stars span.stars {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    z-index: 1;
+}
+.rating_stars span {
+    margin-left: -14px;
+}
+.rating_stars span.stars:before {
+    color: #C4C4C4;
+    content: "\f005";
+}
+.rating_stars input:hover+span.stars:before, .rating_stars input:hover+span.stars~span.stars:before, .rating_stars input:checked+span.stars:before, .rating_stars input:checked+span.stars~span.stars:before {
+    color: #FFAF14;
+    content: "\f005";
+}
+.bg_rate{
+    width: 17%;
+    height: 24px;
+    background: #C4C4C4;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.wp_rate {
+    padding-top: 12px;
+    border-bottom: 1px solid #EAEAEA;
+    float: left;
+    width: 100%;
+    padding-bottom: 13px;
+}
+.fake_rate {
+    background: url(/images/may_in_the/Sao.png)no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.reply_post{
+    border: 1px solid #D5D5D5;
+    border-radius: 10px;
+    padding: 25px 15px;
+    float: right;
+    width: 95%;
+    margin: 5px 0 10px;
+}
+.danhgia-binhluan .form_group #btn_reply{
+    background: #1CA799;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 8px 15px;
+}
+.sanpham-lq{
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+}
+.sanpham-lq .title{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #282828;
+    margin: 0;
+    padding-top: 36px;
+    padding-bottom: 8px;
+}
+.yy{
+    background: linear-gradient(46.19deg, #A7BFE8 5.66%, #6190E8 94.35%);
+    height: 8px;
+}
+.sanpham {
+    margin: 20px 15px;
+    float: left;
+    width: 22%;
+}
+.sp_lq {
+    display: block;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    border-color: #F6F6F6;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    padding: 0;
+    text-decoration: none;
+    transition: color 0.1s ease-in,background-color 0.1s ease-in;
+}
+.sp_lq:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.06);
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+    z-index: 1;
+    background-color: transparent;
+}
+.item {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 365px !important;
+    height: 100%;
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.15); */
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+.sanpham-lq .sp_lq img {
+    width: 100%;
+    height: 275px;
+}
+.sanpham-lq .sp_lq .name-sp h2{
+    margin: 0;
+}
+.sanpham-lq .sp_lq .name-sp a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #282828;
+}
+.sanpham-lq .sp_lq .price-sp a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FF7A00;
+}
+.sanpham-lq .slick-dots li.slick-active button:before {
+    color: #3F98BC!important;
+}
+.sanpham-lq .slick-dots li button:before {
+    font-size: 50px!important;
+}
+.reload{
+    color: #1CA799;
+    font-size: 22px;
+    cursor: pointer;
+}
+.inf-pr .form-group{
+    float: left;
+    width: 100%;
+}
+.so_luong{
+    float: left;
+    width: 100%;
+}
+.so_luong span{
+    float: left;
+    width: 100%;
+    padding-bottom: 16px;
+}
+.cart-quan{
+    float: left;
+    width: 20%;
+    padding-bottom: 32px;
+}
+.them, .tru{
+    border: none;
+    width: 32%;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 23px;
+}
+.them{
+    font-size: 30px;
+}
+.buy_quantity{
+    border: none;
+    width: 25%;
+    font-size: 18px;
+}
+.so_luong p{
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    float: left;
+    padding-top: 10px;
+}
+.images-pr .slick-list {
+    /* width: 400px; */
+    margin: 0px auto;
+}
+.images-pr .slider-nav .slick-track {
+    left: 0 !important;
+    transform: unset !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+.images-pr .slick-track:before, .slick-track:after {
+    display: table;
+    content: '';
+}
+.images-pr .slider-nav .pr_item {
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .25s;
+}
+.pr_item:not(:last-child) {
+    margin-right: 6px;
+}
+.close_cp{
+    float: right;
+    margin-top: -33px;
+    margin-right: -20px;
+    background: #1CA799;
+    border-radius: 50px;
+    width: 2.6%;
+    cursor: pointer;
+}
+.close_cp span{
+    padding-left: 4px;
+    color: #fff;
+}
+.rating_title{
+    background: #46D304;
+    border-radius: 3px;
+    padding: 6px;
+    color: #fff;
+}
+.box-rating .rate{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.cm_total{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+}
+#list_comment .cm_total{
+    padding-top: 30px;
+    padding-bottom: 21px;
+}
+.cm_user strong{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    color: #555555;
+}
+.reply_user{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1877F2;
+    cursor: pointer;
+}
+.cm_content{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.cm_user .img{
+    float: left;
+    width: 3.5%;
+    border-radius: 50px;
+    background: #B0B0B0;
+}
+.cm_user .img img{
+    width: 100%;
+    height: 26px;
+    border-radius: 50px;
+}
+.cm_user .name{
+    float: left;
+    width: 90%;
+    padding-left: 7px;
+}
+.cm_content{
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
+.reply_cm{
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+}
+.list_reply{
+    float: left;
+    width: 100%;
+    padding-left: 40px;
+}
+.cm_user{
+    float: left;
+    width: 100%;
+}
+.col-md-9 .col-12:nth-child(4){
+    margin-right: 0;
+}
+.đaciem .sp-inf:nth-child(1),
+.thongso .sp-inf:nth-child(2),
+.danhgia-binhluan .sp-inf:nth-child(3){
+    color: #00A8EF;
+}
+.slick-prev, .slick-next{
+    display: none!important;
+}
+.sanpham-lq .title{
+    padding-top: 0;
+}
+.sanpham-lq .title h2{
+    text-align: left;
+    padding: 0 5px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+.sanpham-lq .title h2 a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #282828;
+}
+.sanpham-lq .gia-tien a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FF7A00;
+}
+.sanpham-lq .title h2 a:hover{
+    color: #3F98BC;
+}
+.thongtinsp .images-pr .slider-for img{
+    height: 300px;
+    width: 100%;
+}
+.description-pr .img{
+    text-align: center;
+}
+.description-pr .img img{
+    width: 30%;
+    height: 100%;
+}
+/* .sanpham-lq .title{
+    height: 70px;
+} */
+.sanpham-lq .images img{
+    height: 218px;
+}
+.wp_rate .rating{
+    float: left;
+    width: 3%;
+}
+.wp_rate .rating p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/* thông tin liên hệ */
+.thongtinlienhe{
+    float: left;
+    width: 100%;
+    background: #F6F6F6;
+    padding-top: 0;
+}
+.thongtinlienhe h1{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #282828;
+    margin: 0;
+}
+.row-thongtin{
+    width: 1170px;
+    margin: auto;
+}
+.row-thongtin .ll{
+    background: linear-gradient(46.19deg, #A7BFE8 5.66%, #6190E8 94.35%);
+    height: 8px;
+}
+.title-h{
+    float: left;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 22px;
+}
+.row-thongtin .form-group{
+    background: #FFFFFF;
+    border: 1px solid #7CA2E8;
+    box-sizing: border-box;
+    float: left;
+}
+table{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #C4C4C4;
+}
+tbody{
+    float: left;
+    width: 100%;
+}
+.tr-tt .inf-pr, .tr-sp .inf-pr{
+    float: left;
+    width: 40%;
+}
+.tr-tt td, .tr-sp td{
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+.tr-tt td{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.tr-sp{
+    float: left;
+    width: 100%;
+    padding-top: 33px;
+    padding-left: 17px;
+    padding-bottom: 15px;
+}
+.tr-tt{
+    background: #7CA2E8;
+    border: 1px solid #80A5E8;
+    box-sizing: border-box;
+    padding-top: 21px;
+    padding-bottom: 11px;
+    padding-left: 27px;
+    float: left;
+    width: 100%;
+}
+/* .tt-mayin, .soluong, .thanh_pho{
+    float: left;
+    width: 33%;
+}
+.tt-mayin p, .soluong p, .thanh_pho p{
+    background: #7CA2E8;
+    border: 1px solid #80A5E8;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 11px 27px;
+    padding-top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+} */
+.row-thongtin .product_thumb{
+    float: left;
+    width: 11%;
+}
+.row-thongtin .product_thumb img{
+    width: 100%;
+    height: 41px;
+}
+.row-thongtin .left{
+    float: left;
+    width: 100%;
+}
+.row-thongtin .product_name{
+    float: left;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555555;
+}
+.slg{
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 4px;
+}
+.ttp{
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 35%;
+    text-align: center;
+    padding: 4px;
+}
+.ttp .city_order{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.form_right{
+    float: left;
+    width: 100%;
+    padding: 23px 13px;
+}
+.ghichu{
+    float: left;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+    padding-bottom: 5px;
+}
+.form_general{
+    background: #F6F6F6;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    padding: 19px 14px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.mail, .tlphone{
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+}
+.email, .phone{
+    float: left;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+    padding-bottom: 10px;
+    margin: 0;
+}
+#lname, #fname{
+    background: #F6F6F6;
+    border-radius: 10px;
+    border: none;
+    width: 70%;
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.email span, .phone span{
+    color: #E40404;
+    padding-right: 3px;
+}
+.nd{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+    float: left;
+    width: 100%;
+    padding-top: 37px;
+}
+.check span{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+#btn_info{
+    background: #7CA2E8;
+    box-shadow: inset 0px 0px 4px #6B90D6;
+    border-radius: 10px;
+    border: none;
+    width: 35%;
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+.check{
+    float: left;
+    width: 100%;
+    padding: 23px 0;
+}
+.form-thongtin{
+    margin: auto;
+    width: 90%;
+}
+@media only screen and (max-width: 1025px){
+    .container-mayin{
+        margin-left: 5px;
+    }
+    .container-mayin .row {
+        width: 963px;
+    }
+    .col-md-4{
+        padding: 0;
+    }
+    .box{
+        width: 21%;
+    }
+    .col-md-9{
+        width: 1013px;
+    }
+    .col-md-9 .col-12 .tieude p{
+        font-size: 14px;
+    }
+    .col-md-9 .col-12{
+        margin-right: 15px;
+        width: 23.5%;
+
+    }
+    .col-md-9 .col-12 .nd{
+        padding: 10px 15px;
+    }
+    .col-md-4 .inf-tc .img-mayin img{
+        height: 142px;
+    }
+    .col-md-4 .inf-tc .title a{
+        font-size: 14px;
+    }
+    .mayinthcao .img-mayin {
+        padding-top: 81%;
+    }
+    /* chi tiet */
+    .row-detail{
+        width: 930px;
+    }
+    .slider-for img{
+        height: 247px;
+        width: 100%;
+    }
+    .price-pr{
+        padding: 9px;
+        margin-top: 6px;
+        margin-bottom: 11px;
+    
+    }
+    .wp_rate{
+        padding-bottom: 7px;
+    }
+    .so_luong span{
+        padding-bottom: 4px;
+    }
+    .them, .tru {
+        width: 32%;
+    }
+    .slider-nav img {
+        width: 100%;
+        height: 60px;
+    }
+    .cart-quan {
+        padding-bottom: 9px;
+    }
+    .bg_rate {
+        width: 21%;
+    }
+    .slider-nav{
+        padding-top: 35px;
+    }
+    #city{
+        margin-bottom: 8px;
+    }
+    .form-group{
+        margin: 0;
+    }
+    .inf-pr .submit{
+        padding: 9px 0;
+    }
+    .inf-pr .submit .lienhe{
+        font-size: 16px;
+    }
+    .cm_user .img{
+        width: 4.5%;
+    }
+    .form_comment{
+        margin-right: 30px;
+    }
+    .close_cp{
+        width: 3.6%;
+    }
+    .sanpham-lq .sp_lq img{
+        width: 100%;
+        height: 179px;
+    }
+    .images-pr .slider-nav .pr_item {
+        width: 23%;
+        float: left;
+    }
+    .sanpham-lq .images img{
+        height: 159px;
+    }
+    /* .sanpham-lq .img-mayin{
+        padding-top: 115%!important;
+    } */
+    /* thong tin lien he */
+    .row-thongtin{
+        width: 969px;
+    }
+    .banner {
+        width: 1023px;
+    }
+    .ttp {
+        width: 40%;
+    }
+    .form-thongtin{
+        margin: auto;
+        width: 90%;
+    }
+    .col-md-9 .col-12 .tieude{
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .container-mayin .row {
+        width: 700px;
+    }
+    .box {
+        width: 20%;
+    }
+    /* .col-md-4 .inf-tc .title h2{
+        height: 106px;
+    } */
+    /* chi tiet */
+    .row-detail {
+        width: 700px;
+    }
+    .banner {
+        width: 765px;
+    }
+    .close_cp {
+        width: 5%;
+    }
+    .cm_user .img {
+        width: 6%;
+    }
+    .thongtinsp .images-pr .slider-for img {
+        height: 225px;
+    }
+    .form_comment {
+        margin-right: 7px;
+        width: 37%;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-family: Roboto-Medium, sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        color: #555555;
+    }
+    .them, .tru {
+        width: 34%;
+    }
+    .cart-quan {
+        width: 30%;
+    }
+    .thongso-pr .right {
+        border-left: 2px solid #fff;
+    }
+    .col-md-9 {
+        width: 768px;
+    }
+    .detail-container .col-md-9 .col-12 {
+        width: 22.5%;
+    }
+    .col-md-9 .group-iteam {
+        width: 100%;
+    }
+    .sanpham-lq .images img {
+        height: 150px;
+    }
+    /* thông tin liên hệ */
+    .row-thongtin {
+        width: 700px;
+    }
+    .row-thongtin .product_name{
+        width: 84%;
+    }
+    .slg {
+        width: 35%;
+    }
+    .ttp {
+        width: 50%;
+    }
+    #lname, #fname {
+        width: 90%;
+    }
+    #btn_info {
+        width: 75%;
+    }
+    .col-md-9 .col-12 {
+        width: 23%;
+    }
+    .col-md-9 .col-12 .tieude{
+        height: 50px;
+    }
+    .row-thongtin .product_thumb {
+        width: 15%;
+    }
+}
+@media only screen and (max-width: 540px){
+    .boxlogin {
+        width: 65%;
+        margin-top: 0px;
+        padding: 0px;
+        height: 45px;
+    }
+    .container-mayin {
+        margin-left: 0;
+        padding-top: 100px;
+    }
+    .banner {
+        width: 100%;
+    }
+    .container-mayin .row {
+        width: 95%;
+    }
+    .box {
+        width: 29%;
+        margin: 10px;
+    }
+    .col-md-4 .inf-tc .img-mayin img {
+        height: 102px;
+    }
+    .col-md-4 .inf-tc .title a {
+        font-size: 12px;
+        line-height: 0px;
+        text-transform: unset;
+    }
+    .col-md-4 .inf-tc .gia-tien a {
+        font-size: 12px;
+        text-transform: unset;
+    }
+    .col-md-9 {
+        width: 100%;
+    }
+    .col-md-9 .col-12 {
+        width: 21.5%;
+    }
+    .col-md-9 .col-12 .nd{
+        display: none;
+    }
+    /* chi tiet */
+    .navbar{
+        min-height: 0;
+    }
+    .them, .tru {
+        width: 32%;
+    }
+    .detail-container {
+        padding-top: 0;
+    }
+    .row-detail {
+        width: 90%;
+    }
+    .thongtinsp .images-pr {
+        padding: 0;
+        width: 100%;
+    }
+    .slider-nav {
+        padding-top: 0;
+    }
+    .slider-for img {
+        height: 335px;
+    }
+    .thongtinsp .inf-pr {
+        width: 100%;
+    }
+    .bg_rate {
+        width: 30%;
+    }
+    .price-pr, #city, .inf-pr .submit{
+        width: 100%;
+    }
+    .cart-quan {
+        width: 27%;
+    }
+    .đaciem .sp-inf:nth-child(2),
+    .đaciem .sp-inf:nth-child(3),
+    .thongso .sp-inf:nth-child(1),
+    .thongso .sp-inf:nth-child(3),
+    .danhgia-binhluan .sp-inf:nth-child(1),
+    .danhgia-binhluan .sp-inf:nth-child(2){
+        display: none;
+    }
+    .chitietsp .sp-inf{
+        width: 100%;
+    }
+    .thongso-pr .left, .thongso-pr .right {
+        float: left;
+        width: 100%;
+        padding-right: 0;
+        border-left: none;
+        border-right: none;
+        padding-left:0;
+    }
+    .box-rating {
+        width: 100%;
+        padding-top: 25px;
+    }
+    .comment-pr .form, .comment-pr h3, #list_comment {
+        float: right;
+        width: 100%;
+    }
+    .comment-pr h3{
+        padding-top: 12px;
+    }
+    #username{
+        width: 100%;
+    }
+    .form_comment {
+        width: 69%;
+    }
+    .cm_user .img {
+        width: 6%;
+    }
+    .close_cp {
+        width: 5%;
+    }
+    .detail-container .col-md-9 .col-12 {
+        width: 21.5%;
+    }
+    .slider-nav img {
+        height: 95px;
+    }
+    .sanpham-lq .sp_lq img {
+        height: 102px;
+    }
+    .sanpham-lq .sp_lq .name-sp a {
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: unset;
+    }
+    .sanpham-lq .sp_lq .price-sp a {
+        font-size: 12px;
+    }
+    .chitietsp .description-pr p {
+        font-size: 14px;
+    }
+    .thongso-pr .left p, .thongso-pr .right p {
+        font-size: 14px;
+    }
+    .chitietsp .sp-inf {
+        font-size: 14px;
+    }
+    .row-detail h1 {
+        font-size: 14px;
+    }
+    .price-pr span {
+        font-size: 18px;
+    }
+    .description-pr .img img{
+        width: 100%;
+    }
+    /* thong tin */
+    .thongtinlienhe{
+        padding-top: 0;
+    }
+    .row-thongtin {
+        width: 90%;
+    }
+    .form-thongtin {
+        width: 100%;
+    }
+    .tr-tt{
+        padding-left: 11px;
+    }
+    .tr-tt .sluong, .tr-sp .sluong {
+        width: 25%;
+        padding-left: 10px;
+    }
+    .tr-tt td, .tr-sp td {
+        width: 35%;
+    }
+    .row-thongtin .product_thumb {
+        width: 25%;
+    }
+    .row-thongtin .product_name {
+        width: 72%;
+    }
+    .slg, .ttp {
+        width: 100%;
+        border: none;
+    }
+    .mail, .tlphone {
+        width: 100%;
+    }
+    #lname, #fname {
+        width: 100%;
+    }
+    #btn_info {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 416px){
+    .boxlogin {
+        width: 76%;
+    }
+    .container-mayin {
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .banner {
+        width: 100%;
+    }
+    .container-mayin .row {
+        width: 95%;
+    }
+    .box {
+        width: 28%;
+        margin: 20px 10px;
+    }
+    .col-md-4 .inf-tc .img-mayin img {
+        height: 102px;
+    }
+    .col-md-4 .inf-tc .title a {
+        font-size: 12px;
+        line-height: 0px;
+        text-transform: unset;
+    }
+    .col-md-4 .inf-tc .gia-tien a {
+        font-size: 12px;
+        text-transform: unset;
+    }
+    .col-md-9 {
+        width: 100%;
+    }
+    .col-md-9 .col-12 {
+        width: 21.5%;
+    }
+    .col-md-9 .col-12 .nd{
+        display: none;
+    }
+    .mayinthcao .img-mayin {
+        padding-top: 100%;
+    }
+    .col-md-4 .inf-tc .title h2{
+        padding: 0;
+        white-space: nowrap;
+        width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        float: left;
+    }
+    .form{
+        max-height: 170px !important;
+    }
+    .mayinthcao .info {
+        height: 57px;
+    }
+    .inf-tc .info{
+        padding: 0;
+    }
+    .box {
+        margin: 5px 10px;
+    }
+    /* chi tiet */
+    .them, .tru {
+        width: 33%;
+    }
+    .detail-container {
+        padding-top: 0px;
+    }
+    .row-detail {
+        width: 90%;
+    }
+    .thongtinsp .images-pr {
+        padding: 0;
+        width: 100%;
+    }
+    .slider-nav {
+        padding-top: 0;
+    }
+    .slider-for img {
+        height: 233px;
+    }
+    .thongtinsp .inf-pr {
+        width: 100%;
+    }
+    .bg_rate {
+        width: 30%;
+    }
+    .price-pr, #city, .inf-pr .submit{
+        width: 100%;
+    }
+    .cart-quan {
+        width: 35%;
+    }
+    .đaciem .sp-inf:nth-child(2),
+    .đaciem .sp-inf:nth-child(3),
+    .thongso .sp-inf:nth-child(1),
+    .thongso .sp-inf:nth-child(3),
+    .danhgia-binhluan .sp-inf:nth-child(1),
+    .danhgia-binhluan .sp-inf:nth-child(2){
+        display: none;
+    }
+    .chitietsp .sp-inf{
+        width: 100%;
+    }
+    .thongso-pr .left, .thongso-pr .right {
+        float: left;
+        width: 100%;
+        padding-right: 0;
+        border-left: none;
+        border-right: none;
+        padding-left:0;
+    }
+    .box-rating {
+        width: 100%;
+        padding-top: 25px;
+    }
+    .comment-pr .form, .comment-pr h3, #list_comment {
+        float: right;
+        width: 100%;
+    }
+    .comment-pr h3{
+        padding-top: 12px;
+    }
+    #username{
+        width: 100%;
+    }
+    .form_comment {
+        width: 69%;
+    }
+    .cm_user .img {
+        width: 8%;
+    }
+    .close_cp {
+        width: 7%;
+    }
+    .detail-container .col-md-9 .col-12 {
+        width: 21.5%;
+    }
+    .slider-nav img {
+        height: 75px;
+    }
+    .sanpham-lq .sp_lq img {
+        height: 102px;
+    }
+    .sanpham-lq .sp_lq .name-sp a {
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: unset;
+    }
+    .sanpham-lq .sp_lq .price-sp a {
+        font-size: 12px;
+    }
+    .chitietsp .description-pr p {
+        font-size: 14px;
+    }
+    .thongso-pr .left p, .thongso-pr .right p {
+        font-size: 14px;
+    }
+    .chitietsp .sp-inf {
+        font-size: 14px;
+    }
+    .row-detail h1 {
+        font-size: 14px;
+    }
+    .price-pr span {
+        font-size: 18px;
+    }
+    .chitietsp{
+        padding: 22px 10px;
+    }
+    .description-pr .img img{
+        width: 100%;
+    }
+    .sanpham-lq .images img {
+        height: 82px;
+    }
+    .sanpham-lq .title h2{
+        padding: 0;
+    }
+    .inf-tc .info .gia .gia-tien{
+        padding-left: 0;
+    }
+    .sanpham-lq .title h2{
+        font-size: 12px;
+        white-space: nowrap;
+        width: 77px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        float: left;
+    }
+    .sanpham-lq .gia-tien a{
+        font-size: 14px;
+    }
+    /* thong tin */
+    .thongtinlienhe{
+        padding-top: 0;
+    }
+    .row-thongtin {
+        width: 90%;
+    }
+    .form-thongtin {
+        width: 100%;
+    }
+    .tr-tt{
+        padding-left: 11px;
+    }
+    .tr-tt .sluong, .tr-sp .sluong {
+        width: 25%;
+        padding-left: 10px;
+    }
+    .tr-tt td, .tr-sp td {
+        width: 35%;
+    }
+    .row-thongtin .product_thumb {
+        width: 25%;
+    }
+    .row-thongtin .product_name {
+        width: 72%;
+    }
+    .slg, .ttp {
+        width: 100%;
+        border: none;
+    }
+    .mail, .tlphone {
+        width: 100%;
+    }
+    #lname, #fname {
+        width: 100%;
+    }
+    #btn_info {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .boxlogin {
+        width: 81%;
+    }
+    .box {
+        width: 27%;
+    }
+    .col-md-9 .col-12 {
+        width: 20.5%;
+    }
+    /* .col-md-4 .inf-tc .title h2 {
+        height: 130px;
+    } */
+    /* chi tiet */
+    .form_comment {
+        width: 63%;
+    }
+    .cm_user .img {
+        width: 9%;
+    }
+    .sanpham-lq .img-mayin {
+        padding-top: 100%!important;
+    }
+    /* thong tin lien he */
+    .tr-tt td, .tr-sp td {
+        width: 34%;
+        padding-left: 0px;
+    }
+    .tr-sp {
+        padding-top: 17px;
+        padding-left: 8px;
+    }
+    .row-thongtin .product_name{
+        padding-top: 0;
+    }
+    .tr-tt .sluong, .tr-sp .sluong {
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 320px){
+    .box {
+        width: 26%;
+    }
+    .col-md-4 .inf-tc .img-mayin img {
+        height: 76px;
+    }
+    .boxlogin {
+        width: 100%;
+    }
+    .col-md-4 .inf-tc .title h2 {
+        width: 80px;
+    }
+    .box {
+        margin: 5px 10px;
+    }
+    /* chi tiet */
+    .cart-quan {
+        width: 43%;
+    }
+    .form_comment {
+        width: 57%;
+    }
+    .cm_user .img {
+        width: 11%;
+    }
+    .cm_user .name {
+        width: 87%;
+    }
+    .detail-container .col-md-9 .col-12 {
+        width: 20.5%;
+    }
+    .topfooter p img {
+        width: 26%;
+    }
+}
+@media only screen and (max-width: 280px){
+    .boxlogin {
+        width: 100%;
+    }
+    .boxlogin ul {
+        padding-left: 0;
+    }
+    .box {
+        width: 25%;
+    }
+    .col-md-9 .group-iteam {
+        width: 95%;
+    }
+    .col-md-9 .col-12 {
+        width: 19.5%;
+    }
+    .col-md-9 .col-12 .item-img {
+        height: 35px;
+    }
+    .col-md-9 .col-12 .item-img img{
+        width: 30px;
+        height: 30px;
+    }
+    .col-md-4 .inf-tc .img-mayin img {
+        height: 76px;
+    }
+    /* thong tin san pham */
+    .tr-tt .inf-pr, .tr-sp .inf-pr {
+        width: 38%;
+    }
+    .row-thongtin .product_thumb img {
+        height: 30px;
+    }
+    .mail, .tlphone {
+        padding-top: 15px;
+    }
+    .nd {
+        padding-top: 20px;
+    }
+    .check {
+        padding: 5px 0;
+        padding-top: 10px;
+    }
+    .topfooter p img {
+        width: 25%;
+    }
+}

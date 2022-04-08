@@ -1,0 +1,758 @@
+header {
+    top: 0;
+}
+
+#wp_the_giay {
+    margin-top: 100px;
+    padding-top: 22px;
+}
+
+#tg_header {
+    background: #50B952;
+    border-radius: 30px 30px 0px 0px;
+    text-align: center;
+    width: 1230px;
+    margin: 0px auto;
+}
+
+#tg_header h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 26px 0px 19px;
+    margin: 0;
+}
+
+#phone_card {
+    padding-top: 28px;
+}
+
+#game_card {
+    margin-top: 63px;
+}
+
+#tg_contact,
+#card_guide {
+    margin-top: 81px;
+    background: #FFFFFF;
+    border-top: 2px solid #0887BC;
+    padding: 59px 24px 28px;
+    position: relative;
+}
+
+#tg_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title_bg {
+    background: url(/images/the_giay/h2_header.png)no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 17px 0px 11px;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 488px;
+    margin: 0;
+}
+
+.title_bg span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#tg_contact p {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#tg_contact p span.icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+#tg_contact p a:hover {
+    color: #00A8EF;
+}
+
+#tg_contact p span,
+#tg_contact p a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    width: 87%;
+}
+
+#tg_contact p span img {
+    object-fit: scale-down;
+}
+
+#card_guide {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #000000;
+}
+
+#card_guide p {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+span.t_mark {
+    background: #00A8EF;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 4px 5px 5px;
+}
+
+
+/*==============================CLASS================================*/
+
+#wp_the_giay img {
+    width: 100%;
+    height: 100%;
+}
+
+.container_tg {
+    width: 1230px;
+    margin: 0px auto;
+    padding: 0px 10px;
+    background: #F5F5F5;
+}
+
+.discount_table {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 16px 8px 18px;
+    margin-top: 22px;
+    border-bottom: 4px solid #00A8EF;
+}
+
+.title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+}
+
+table thead {
+    text-align: center;
+}
+
+table thead td {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #00A8EF;
+    padding: 29px 0px 18px;
+}
+
+table tbody {
+    text-align: center;
+}
+
+table tbody td {
+    padding: 18px 0px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #084369;
+}
+
+table tbody td:nth-child(2),
+table thead td:nth-child(2) {
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+table tbody tr {
+    background: #f5f5f5;
+}
+
+td {
+    width: 398px;
+}
+
+tr {
+    border-bottom: 3px solid #fff;
+}
+
+.fade {
+    opacity: 1;
+}
+
+.provider {
+    padding: 0px 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#game_card .provider {
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#game_card .card_item:nth-child(1),
+#game_card .card_item:nth-child(2),
+#game_card .card_item:nth-child(3),
+#game_card .card_item:nth-child(4) {
+    margin-bottom: 14px;
+}
+
+#game_card .card_item:nth-child(1),
+#game_card .card_item:nth-child(2),
+#game_card .card_item:nth-child(3) {
+    margin-right: 82px;
+}
+
+#game_card .card_item:nth-child(5) {
+    margin-left: 148px;
+}
+
+#game_card .card_item:nth-child(5),
+#game_card .card_item:nth-child(6) {
+    margin-right: 101px;
+}
+
+.nav::before,
+.nav::after {
+    display: none;
+}
+
+.card_item {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: all linear .25s;
+    width: 232px;
+    height: 70px;
+    text-align: center;
+    background: #fff;
+    line-height: 70px;
+}
+
+.card_item span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    text-transform: uppercase;
+    transition: all linear .25s;
+}
+
+.card_item.active span,
+.card_item:hover span {
+    color: #00A8EF;
+}
+
+.card_item:focus {
+    text-decoration: none;
+}
+
+#wp_the_giay .provider img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img_cover {
+    display: inline-block;
+}
+
+.card_item:hover,
+.card_item.active {
+    border: 1px solid #00A8EF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+caption.tbl_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #00A8EF;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container_tg {
+        width: 931px;
+        padding: 0px 8px;
+    }
+    #tg_header {
+        width: 931px;
+    }
+    #tg_header h1 {
+        padding: 20px 0px 15px;
+    }
+    .card_item {
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+    }
+    #phone_card .card_item:nth-child(2) .img_cover {
+        width: 90px;
+    }
+    #phone_card .card_item:nth-child(3) .img_cover {
+        height: 54px;
+    }
+    #wp_the_giay .provider img {
+        max-width: 100%;
+        height: 100%;
+        width: auto;
+    }
+    #game_card .card_item:nth-child(3) .img_cover {
+        width: 100px;
+    }
+    #game_card .card_item:nth-child(4) .img_cover {
+        width: 77px
+    }
+    table thead td {
+        padding: 20px 0px 15px;
+    }
+    table tbody td {
+        padding: 13px 0px;
+    }
+    #game_card {
+        margin-top: 36px;
+    }
+    #game_card .card_item:nth-child(1),
+    #game_card .card_item:nth-child(2),
+    #game_card .card_item:nth-child(3) {
+        margin-right: 26px;
+    }
+    #game_card .card_item:nth-child(5),
+    #game_card .card_item:nth-child(6) {
+        margin-right: 30px;
+    }
+    #game_card .card_item:nth-child(5) {
+        margin-left: 112px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container_tg {
+        width: 700px;
+        padding-bottom: 10px;
+    }
+    #tg_header {
+        width: 700px;
+    }
+    #tg_header h1 {
+        padding: 19px 0px 12px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .title {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .provider {
+        padding: 0;
+    }
+    .card_item {
+        width: 163px;
+        height: 57px;
+        line-height: 57px;
+    }
+    .card_item span {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #phone_card .card_item:nth-child(1) .img_cover {
+        width: 50px;
+        height: 34px;
+    }
+    #phone_card .card_item:nth-child(2) .img_cover {
+        width: 64px;
+        height: 15px;
+    }
+    #phone_card .card_item:nth-child(3) .img_cover {
+        height: 43px;
+        width: 44px;
+    }
+    #phone_card .card_item:nth-child(4) .img_cover {
+        width: 34px;
+        height: 25px;
+    }
+    caption.tbl_title {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0px 0px 0px 8px;
+        margin-bottom: 6px;
+    }
+    .discount_table {
+        padding: 15px 4px 9px;
+        margin-top: 15px;
+        border-bottom: 2px solid #00A8EF;
+    }
+    table thead td {
+        padding: 15px 0px 6px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    table tbody td {
+        padding: 7px 0px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #game_card .card_item:nth-child(1),
+    #game_card .card_item:nth-child(2),
+    #game_card .card_item:nth-child(3) {
+        margin-right: 10px;
+    }
+    #game_card .card_item:nth-child(1),
+    #game_card .card_item:nth-child(2),
+    #game_card .card_item:nth-child(3),
+    #game_card .card_item:nth-child(4) {
+        margin-bottom: 10px;
+    }
+    #game_card .card_item:nth-child(5) {
+        margin-left: 86px;
+    }
+    #game_card .card_item:nth-child(5),
+    #game_card .card_item:nth-child(6) {
+        margin-right: 12px;
+    }
+    #game_card .card_item:nth-child(1) .img_cover,
+    #game_card .card_item:nth-child(5) .img_cover {
+        width: 36px;
+        height: 38px;
+    }
+    #game_card .card_item:nth-child(3) .img_cover {
+        width: 67px;
+        height: 23px;
+    }
+    #game_card .card_item:nth-child(4) .img_cover,
+    #game_card .card_item:nth-child(2) .img_cover {
+        width: 62px;
+        height: 21px;
+    }
+    #game_card .card_item:nth-child(6) .img_cover,
+    #game_card .card_item:nth-child(7) .img_cover {
+        width: 70px;
+        height: 39px;
+    }
+    .title_bg {
+        padding: 15px 0px 9px;
+        top: -24px;
+        width: 422px;
+        margin: 0;
+    }
+    #tg_contact p span {
+        width: 84%;
+    }
+    #tg_contact p span.icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #tg_contact p {
+        width: 45%;
+    }
+    #card_guide p {
+        padding-bottom: 8px;
+        margin: 0;
+    }
+    p {
+        margin: 0 0 10px;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    user agent stylesheet p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    #card_guide {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #card_guide p {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #wp_the_giay {
+        margin-top: 111px;
+        padding: 10px 12px 0px;
+    }
+    #tg_header {
+        width: 100%;
+    }
+    #tg_header h1 {
+        padding: 14px 0px 11px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    #phone_card {
+        padding-top: 24px;
+    }
+    .container_tg {
+        width: 100%;
+        padding: 0px 7px;
+        padding-bottom: 5px;
+    }
+    .title {
+        margin-bottom: 11px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .img_cover {
+        display: block;
+    }
+    .card_item {
+        width: 102px;
+        height: 95px;
+        line-height: unset;
+    }
+    #phone_card .card_item:nth-child(1) .img_cover,
+    #phone_card .card_item:nth-child(2) .img_cover,
+    #phone_card .card_item:nth-child(3) .img_cover,
+    #phone_card .card_item:nth-child(4) .img_cover {
+        width: 100%;
+        height: 70%;
+        line-height: 56px;
+    }
+    #wp_the_giay .provider img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+    .card_item span {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .discount_table {
+        padding: 10px 2px 3px;
+        margin-top: 12px;
+    }
+    caption.tbl_title {
+        font-size: 14px;
+        line-height: 15px;
+        padding: 0px 0px 0px 4px;
+    }
+    table thead td {
+        padding: 6px 0px 3px;
+        font-size: 13px;
+    }
+    table tbody td {
+        padding: 5px 0px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #game_card .card_item:nth-child(1) .img_cover,
+    #game_card .card_item:nth-child(2) .img_cover,
+    #game_card .card_item:nth-child(3) .img_cover,
+    #game_card .card_item:nth-child(4) .img_cover,
+    #game_card .card_item:nth-child(5) .img_cover,
+    #game_card .card_item:nth-child(6) .img_cover,
+    #game_card .card_item:nth-child(7) .img_cover {
+        width: 90%;
+        height: 70%;
+        line-height: 65px;
+        margin: 0px auto;
+    }
+    #game_card .card_item:nth-child(1),
+    #game_card .card_item:nth-child(2),
+    #game_card .card_item:nth-child(3) {
+        margin-right: 11px;
+    }
+    #game_card .card_item:nth-child(5) {
+        margin-left: 50px;
+    }
+    .title_bg {
+        padding: 11px 0px 5px;
+        top: -20px;
+        width: 100%;
+        margin: 0;
+    }
+    #tg_contact,
+    #card_guide {
+        margin-top: 33px;
+        padding: 35px 8px 17px;
+        flex-direction: column;
+    }
+    #tg_contact p {
+        width: 100%;
+    }
+    #tg_contact p span,
+    #tg_contact p a {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    #tg_contact p span.icon {
+        width: 25px;
+        height: 24px;
+        margin-right: 8px;
+    }
+    #card_guide {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #wp_the_giay {
+        margin-top: 0;
+    }
+    .card_item span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .card_item {
+        width: 82px;
+        height: 80px;
+    }
+    #game_card .card_item:nth-child(1),
+    #game_card .card_item:nth-child(2),
+    #game_card .card_item:nth-child(3) {
+        margin-right: 16px;
+    }
+    .title_bg {
+        padding: 12px 0px 5px;
+    }
+    .title_bg span {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #game_card .card_item:nth-child(1),
+    #game_card .card_item:nth-child(2),
+    #game_card .card_item:nth-child(3) {
+        margin-right: 10px;
+    }
+    #tg_header h1 {
+        padding: 14px 0px 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .title_bg {
+        padding: 14px 0px 5px;
+    }
+    .title,
+    table thead td,
+    table tbody td,
+    .title_bg span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .card_item {
+        width: 77px;
+        height: 71px;
+    }
+    #phone_card .card_item:nth-child(1) .img_cover img {
+        width: 38px;
+        height: 26px;
+    }
+    #phone_card .card_item:nth-child(2) .img_cover img {
+        width: 64px;
+        height: 15px;
+    }
+    #phone_card .card_item:nth-child(3) .img_cover img {
+        width: 33px;
+        height: 33px;
+    }
+    #phone_card .card_item:nth-child(4) .img_cover img {
+        width: 28px;
+        height: 20px;
+    }
+    #phone_card .card_item:nth-child(1) .img_cover,
+    #phone_card .card_item:nth-child(2) .img_cover,
+    #phone_card .card_item:nth-child(3) .img_cover,
+    #phone_card .card_item:nth-child(4) .img_cover {
+        width: 100%;
+        height: 65%;
+        line-height: 44px;
+    }
+    #game_card {
+        margin-top: 25px;
+    }
+    #game_card .card_item:nth-child(1) .img_cover img {
+        width: 32px;
+        height: 34px;
+    }
+    #game_card .card_item:nth-child(2) .img_cover img {
+        width: 40px;
+        height: 17px;
+    }
+    #game_card .card_item:nth-child(3) .img_cover img {
+        width: 67px;
+        height: 23px;
+    }
+    #game_card .card_item:nth-child(4) .img_cover img {
+        width: 62px;
+        height: 21px;
+    }
+    #game_card .card_item:nth-child(5) .img_cover img {
+        width: 32px;
+        height: 32px;
+    }
+    #game_card .card_item:nth-child(6) .img_cover img {
+        width: 68px;
+        height: 36px;
+    }
+    #game_card .card_item:nth-child(7) .img_cover img {
+        width: 56px;
+        height: 28px;
+    }
+    .container_tg {
+        padding: 0px 6px;
+        padding-bottom: 6px;
+    }
+    #game_card .card_item:nth-child(1),
+    #game_card .card_item:nth-child(2),
+    #game_card .card_item:nth-child(3),
+    #game_card .card_item:nth-child(4) {
+        margin-bottom: 8px;
+    }
+    #game_card .card_item:nth-child(5) {
+        margin-left: 39px;
+    }
+    #game_card .card_item:nth-child(5),
+    #game_card .card_item:nth-child(6) {
+        margin-right: 15px;
+    }
+    #tg_contact p {
+        margin-bottom: 16px;
+    }
+    #card_guide p {
+        padding-bottom: 14px;
+    }
+    span.t_mark {
+        padding: 2px 3px 2px;
+    }
+    #card_guide {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

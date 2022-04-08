@@ -1,0 +1,156 @@
+@media only screen and (max-width:1024px)
+{
+	.main-tintuc-left {
+		width: 100%;
+	}
+	.new_item {
+		height: 180px;
+	}
+	.main-tintuc-right {
+		width: 100%;
+	}
+	#maintopcontent {
+		display: none;
+	}
+	.content-mobile{
+		display: block;
+	}
+	#footerquydinh {
+		display: none;
+	}
+	.boxlogin {
+		width: 40%;
+		margin-top: 0px;
+		padding: 0px;
+		height: 45px;
+	}
+	.boxlogin ul{
+		overflow: inherit;
+		float: right;
+	}
+	.navbar-brand{
+		margin-top: 5px;
+	}
+	ul.nav.navbar-nav {
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+	.modal_content{
+		width: 65%;
+	}	
+	.menu-mobi{
+		width: 100%;
+		margin-top: -10px;
+	}
+	.banner_fix{
+		display: none;
+	}
+}
+
+@media only screen and  (max-width:770px) 
+{	
+	.section-title.bg-lable4 h2 {
+		height: auto;
+	}
+	.form-group {
+		height: auto !important;
+	}
+	header {
+		height: 110px;
+	}
+	.navbar-brand,
+	.menu-mobi {
+		margin-top: 0px;
+	}
+	
+	ul.nav.navbar-nav li a {
+		font-size: 15px;
+		font-weight: 300;
+	}
+.noidungtrangchu p img,.noidungtrangchu div img{height:auto !important;max-width: 100%!important;}
+    .tbnt{
+    	margin-top: 15px;
+    }
+
+    .noidung_naptien{
+    	margin-top: 25px;
+    	width: 100%;
+    	border: none;
+    }
+    ul.nav.navbar-nav{
+    	padding-left: 0px;
+    }
+    .table_chietkhau{
+    	padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+	.noidungtrangchu center table td{
+		width:100%;
+		float:left;
+	}
+	.topfooter p img{
+		width: 27%;
+	    height: 50px;
+	    display: inline-block;
+	}
+	div.banner a img{
+		max-width:100%;
+		height: auto;
+	}
+	.col-md-7.col-xs-12.menu-mobi{
+		position: relative;
+    	height: 0px;
+    }
+	.menu-mobi .main-menu{
+		position: relative !important;
+	    height: 0px  !important;
+	    min-height: 0px  !important;
+	}
+	.content-mobile{z-index:9999;}
+	button.btnRefresh {
+		margin-top: 20px;
+	}
+	.new_item {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		height: auto;
+	}
+	#navbar-main {
+		float: left;
+		background-image: linear-gradient(white,#f3f3f3,#f3f3f3, #f3f3f3);
+		width: 100%;
+	}
+	.boxlogin {
+		width: 100%;
+	}
+	#slideout {
+		display: none;
+	}
+	.divcontent1 {
+		margin-top: 10px;
+	}
+	header{
+		position: relative;
+	}
+
+.modal_content{
+		width: 90%;
+		margin: 20px auto 0px;
+	}
+    .modal_content .form-horizontal .form-group,
+    .modal_content p{
+    	margin-bottom: 5px;
+    }
+    .modal_content .col-md-6{
+    	padding: 0px;
+    }
+    .modal_content .thtc{
+    	width: 100%;
+    }
+    .noidung_naptien{
+    	margin-top: 0px;
+    }
+
+}
