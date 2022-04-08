@@ -1,0 +1,167 @@
+@media only screen and (max-width:1024px)
+{
+	.main-tintuc-left {
+		width: 100%;
+	}
+	.new_item {
+		height: 180px;
+	}
+	.main-tintuc-right {
+		width: 100%;
+	}
+	#maintopcontent {
+		display: none;
+	}
+	.content-mobile{
+		display: block;
+	}
+	#footerquydinh {
+		display: none;
+	}
+	.boxlogin {
+		width: 40%;
+		margin-top: 0px;
+		padding: 0px;
+		height: 45px;
+	}
+	.boxlogin ul{
+		overflow: hidden;
+		float: right;
+	}
+	.navbar-brand{
+		margin-top: 35px;
+		margin-left: -20px;
+	}
+	ul.nav.navbar-nav {
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+	.modal_content{
+		width: 65%;
+	}
+	.banner_fix{
+		display: none;
+	}
+	.article{
+		padding: 0 15px; 
+	}
+}
+
+@media only screen and  (max-width:770px) 
+{	
+	.section-title.bg-lable4 h2 {
+		height: auto;
+	}
+	.form-group {
+		height: auto !important;
+	}
+	header {
+		height: auto;
+	}
+    figure img{max-width:100%;height:auto;}
+    .new_description div img, .new_description p img{max-width:100%; height:auto;}
+    header .logo {padding-left:0px !important}
+    header .logo .navbar-brand{padding-top:2px;}
+    .text-wc{display:none;}
+    .welcome .box-dn #mini-nav{margin-bottom:0px;padding-top:3px;}
+    .welcome .boxlogin{height:33px;}
+	.navbar-brand {
+		margin-top: 0px;
+	}
+    .boxlogin ul {
+    overflow: inherit;
+    float: right;
+}
+	#litaikhoan.open>.dropdown-menu {
+    display: block;overflow: inherit;
+}
+	ul.nav.navbar-nav li a {
+		font-size: 15px;
+		font-weight: 300;
+	}
+    .nonemobile{display:none;}
+    .welcome{height:auto !important;}
+    .noidungtrangchu p img, .noidungtrangchu div img{height:auto !important}
+    .noidungtrangchu table.table{width:100% !important;max-width:100%;}
+    .noidungtrangchu table.table td img{max-width:100%}
+    .noidungtrangchu span img{max-width:100% !important;height:auto;}
+    .tbnt{
+    	margin-top: 15px;
+    }
+
+    .noidung_naptien{
+    	margin-top: 50px;
+    }
+    ul.nav.navbar-nav{
+    	padding-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+	.form-content{
+		padding: 10px;
+	}
+	button.btnRefresh {
+		margin-top: 20px;
+	}
+	.new_item {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		height: auto;
+	}
+	#navbar-main {
+		float: left;
+		background-image: linear-gradient(white,#f3f3f3,#f3f3f3, #f3f3f3);
+		width: 100%;
+	}
+	.boxlogin {
+		width: 100%;
+	}
+	#slideout {
+		display: none;
+	}
+	.divcontent1 {
+		margin-top: 10px;
+	}
+	header{
+		position: relative;
+	}
+    .menu-mobi{position: relative;height:0px;}
+    .menu-mobi .main-menu{height: 0px;
+    top: -50px;}
+    .box-style iframe{max-width:100% !important}
+    .nav.navbar-nav .dropdown{margin-top:2px;}
+    div.sp-thedienthoai ul{padding-left:0px;}
+    div.sp-thedienthoai ul li{float:left;max-width:50%;}
+    div.sp-thedienthoai ul li .hover-sp{max-width:99% !important}
+       div.sp-thedienthoai ul li .hover-sp img{max-width:100%;}
+       div.col-md-4 div.control-label{display:none;}
+       div.thedianthoai form .col-md-6{padding-left:0px;padding-right:0px;}
+       div.muathegams form .col-md-6{padding-left:0px;padding-right:0px;}
+       .boxdrpmega .dropDownList{max-width:100%;    min-width: 99%;}
+       .dropDownList tr:last-child td{width:45% !important;float:left;}
+       .welcome .boxlogin {
+    /* height: 33px; */
+    height:auto !important;
+}
+
+	.modal_content{
+		width: 90%;
+		margin: 20px auto 0px;
+	}
+    .modal_content .form-horizontal .form-group,
+    .modal_content p{
+    	margin-bottom: 5px;
+    }
+    .modal_content .col-md-6{
+    	padding: 0px;
+    }
+    .modal_content .thtc{
+    	width: 100%;
+    }
+    .noidung_naptien{
+    	margin-top: 0px;
+    }
+
+}
