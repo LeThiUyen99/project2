@@ -1,0 +1,25 @@
+﻿.scrollup {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius:3px;
+    display: none;
+    text-indent: -9999px;
+    background: url('/uploads/files/images/scrollToTop.png') no-repeat;
+    /*background-color: #000;*/
+}
+
+.scrollup:hover {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius:3px;
+    display: none;
+    text-indent: -9999px;
+    background: url('/uploads/files/images/scrollToTop.png') no-repeat;
+    cursor:pointer;
+}

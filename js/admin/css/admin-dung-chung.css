@@ -1,0 +1,362 @@
+﻿
+/* select option */
+.optionsearch {
+    /*font-weight:bold;*/
+    -webkit-appearance: button;
+    background-image: url(/uploads/files/admin/dropdown.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 50px;
+    -moz-appearance: none;
+}
+
+    .optionsearch option {
+        padding: 5px 10px;
+    }
+/* End select option */
+
+/* Class tiêu đề trang */
+.tieuDeAdmin {
+    height: 40px;
+    background-color: #f0ad4e;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: Arial;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* End class tiêu đề trang */
+
+/* Css dùng chung cho trang Admin */
+.selected {
+    background-color: #EEEEEE !important;
+}
+
+table.display a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+table.display tbody tr:hover {
+    background-color: #EEEEEE !important;
+}
+
+table.display tr:nth-child(2n+1) {
+    background-color: #F8F8F8;
+}
+
+.errorClass {
+    border: 1px solid #FF1604 !important;
+}
+
+.dt-body-center {
+    text-align: center;
+}
+
+.page-header {
+    margin-top: 15px;
+}
+
+.chucNang {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #CCCCCC;
+}
+
+/* Button thêm mới */
+.btnThemMoi {
+    width: auto;
+    background-color: #00364E;
+    border-top: 2px solid #77CC6D;
+    border-bottom: 2px solid #77CC6D;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    margin-right: 7px;
+    position: absolute;
+    right: 90px;
+}
+
+    .btnThemMoi:hover {
+        width: auto;
+        cursor: pointer;
+        background-color: #00363E;
+        border-top: 2px solid #77CC6D;
+        border-bottom: 2px solid #77CC6D;
+        color: white;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .btnThemMoi:active {
+        width: auto;
+        background-color: #00363E;
+        border-top: 2px solid #77CC6D;
+        border-bottom: 2px solid #77CC6D;
+        color: white;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .btnThemMoi i {
+        padding-left: 3px;
+        padding-right: 3px;
+        color: orange;
+        font-size: 14px;
+    }
+/* Kết thúc Button thêm mới */
+
+/* Button cập nhật */
+.btnCapNhat {
+    width: auto;
+    background-color: #00364E;
+    border-top: 2px solid #77CC6D;
+    border-bottom: 2px solid #77CC6D;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    position: absolute;
+    right: 100px;
+}
+
+    .btnCapNhat:hover {
+        width: auto;
+        cursor: pointer;
+        background-color: #00363E;
+        border-top: 2px solid #77CC6D;
+        border-bottom: 2px solid #77CC6D;
+        color: white;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .btnCapNhat:active {
+        width: auto;
+        background-color: #00363E;
+        border-top: 2px solid #77CC6D;
+        border-bottom: 2px solid #77CC6D;
+        color: white;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .btnCapNhat i {
+        padding-left: 3px;
+        padding-right: 3px;
+        color: orange;
+        font-size: 14px;
+    }
+/* Kết thúc Button cập nhật */
+
+/* Button hủy */
+.btnHuy {
+    width: auto;
+    background-color: #00364E;
+    border-top: 2px solid #77CC6D;
+    border-bottom: 2px solid #77CC6D;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    float: right;
+}
+
+    .btnHuy:hover {
+        width: auto;
+        cursor: pointer;
+        background-color: #00363E;
+        border-top: 2px solid #77CC6D;
+        border-bottom: 2px solid #77CC6D;
+        color: white;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .btnHuy:active {
+        width: auto;
+        background-color: #00363E;
+        border-top: 2px solid #77CC6D;
+        border-bottom: 2px solid #77CC6D;
+        color: white;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .btnHuy i {
+        padding-left: 3px;
+        padding-right: 3px;
+        color: red;
+        font-size: 14px;
+    }
+
+/* Kết thúc Button hủy */
+
+
+
+/* Image */
+/* CSS3 STYLE GENERIC */
+.view {
+    width: 100%;
+    /*width: 300px;*/
+    /*height: 200px;
+   margin: 10px;*/
+    /*float: left;*/
+    /*border: 5px solid #fff;*/
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    /*box-shadow: 0px 0px 5px #aaa;*/
+    cursor: default;
+}
+
+    .view .mask {
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    .view img {
+        display: block;
+        position: relative;
+    }
+
+    .view a.info {
+        display: inline-block;
+        text-decoration: none;
+        text-indent: -9999px;
+        position: absolute;
+        /*width:20px;*/
+        /*height:20px;*/
+        top: 50%;
+        left: calc(50% - 10);
+    }
+
+
+/* SECOND EFFECTS */
+
+.second-effect .mask {
+    background: url('../../../uploads/files/admin/link.png') center no-repeat;
+    opacity: 0;
+    overflow: visible;
+    border: 0px solid rgba(0,0,0,0.7);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.second-effect a.info {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 10);
+    opacity: 0;
+    -moz-transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    transform: scale(0,0);
+    -webkit-transition: -webkit-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    -moz-transition: -moz-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    -o-transition: -o-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    -ms-transition: -ms-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    transition: transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+}
+
+.second-effect:hover .mask {
+    opacity: 1;
+    /*border:100px solid rgba(0,0,0,0.7);*/
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.second-effect:hover a.info {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 10);
+    opacity: 1;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+    -moz-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+/*End Image*/
+
+/*#boxLoading {
+    display: none;
+}*/
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*background: url('/images/overlay.png') repeat 0 0;*/
+    z-index: 100000;
+}
+
+.boxLoading {
+    /*display : none;*/
+    background: url('/uploads/files/admin/ajaxloader.gif') no-repeat 12px 8px #000000;
+    color: white;
+    font-size: 11px;
+    height: 35px;
+    left: 50%;
+    line-height: 20px;
+    margin: -20px 0 0 -45px;
+    padding: 8px;
+    position: fixed;
+    text-align: left;
+    text-indent: 30px;
+    top: 50%;
+    width: 100px;
+    z-index: 100001;
+    opacity: 0.8;
+    filter: alpha(opacity=0.8);
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+
+#tabBanthe24h a {
+    padding-top:10px;
+    margin-top:-10px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    height:40px !important;
+    text-align:center;
+    color:white;
+}
+
+#tabBanthe24h a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.activeTab {
+    background-color: #f39c12;
+    font-weight:bold;
+}

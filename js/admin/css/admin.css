@@ -1,0 +1,207 @@
+﻿
+#menuLeft {
+    padding-left: 0px;
+    padding-right: 0px
+}
+/* Css Facebook */
+.fb-comments, .fb-comments span, .fb-comments iframe
+{
+    width: 100% !important;
+}
+
+.fb-like-box, .fb-like-box span, .fb-like-box span iframe[style] 
+{
+    width: 100% !important;
+}
+/* End Css Facebook */
+
+.XinChao 
+{
+    color:White;
+    float:left;
+    font-family:Arial;
+    font-size:12px;
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-left:20px;
+}
+
+.XinChao a
+{
+    color:White;
+    text-decoration:none;
+}
+
+.XinChao a:hover
+{
+    color:White;
+    text-decoration:underline;
+}
+
+.cham_ngon
+{
+    color:White;
+    float:left;
+    font-family:Arial;
+    font-size:12px;
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-left:20px;
+    text-align:center;
+}
+
+.Full_Page {
+    padding-left:0px;
+    padding-top:8px;
+}
+
+.change_Width {
+    color:#7D5656;
+}
+
+.change_Width:hover {
+    cursor:pointer;
+    color:#00364E;
+}
+
+.change_Width:active {
+    cursor:pointer;
+    color:#00364E;
+}
+
+.Thoat
+{
+    color:White;
+    float:right;
+    font-family:Arial;
+    font-size:12px;
+    text-align:right;
+    padding-top:9px;
+}
+
+.Thoat a
+{
+    color:#ffffff;
+    font-family:Arial;
+    font-size:12px;
+    text-decoration:none;
+}
+
+.Thoat a:hover
+{
+    color:white;
+    font-family:Arial;
+    font-size:12px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.Thoat a:active
+{
+    color:white;
+    font-family:Arial;
+    font-size:12px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.NgonNgu
+{
+    color:White;
+    font-family:Arial;
+    font-size:12px;
+    padding-right:0px;
+    padding-top:9px;
+    text-align:right;
+}
+
+.NgonNgu img
+{
+    width:27px;
+    height:18px;
+    margin-right:5px;
+    margin-top:0px;
+}
+
+.NgonNgu img:hover
+{
+    width:27px;
+    height:18px;
+    margin-right:5px;
+    margin-top:0px;
+    cursor:pointer;
+}
+
+.ChucNangTren
+{
+    background-color:#ffffff;
+    border-bottom:none;
+    text-decoration:none;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.btnThem
+{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.lbtThem
+{
+    background:url('/upload/files/admin/page_add.png') left no-repeat;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+.lbtXoa
+{
+    background:url('/upload/files/admin/delete.png') left no-repeat;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+.lbtLamMoi
+{
+    background:url('/upload/files/admin/refresh.png') left no-repeat;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+.lbtTroLai
+{
+    background:url('/upload/files/admin/back.png') left no-repeat;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+.lbtGhiLai
+{
+    background:url('/upload/files/admin/page_save.png') left no-repeat;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+.lbtTroVe
+{
+    background:url('/upload/files/admin/back.png') left no-repeat;
+    padding-left:20px;
+    text-decoration:none;
+}
+
+.txt
+{
+    padding:2px;
+}
+
+.contentAdmin {
+    min-height:650px;
+    background-color:white;
+    padding-bottom:70px;
+}
+
+.contentAdmin a {
+    cursor:pointer;
+}
