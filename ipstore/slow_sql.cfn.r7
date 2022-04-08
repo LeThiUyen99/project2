@@ -1,0 +1,27 @@
+22/05/2018 04:04:07 AM File : 
+Query time : 0.6421611309
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:05:31 AM File : 
+Query time : 0.5960822105
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:06:09 AM File : 
+Query time : 0.5705080032
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:33 AM File : 
+Query time : 0.5752789974
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:40 AM File : 
+Query time : 0.5712378025
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:42 AM File : 
+Query time : 0.5917110443
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:43 AM File : 
+Query time : 0.5985739231
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:48 AM File : 
+Query time : 0.5699329376
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:50 AM File : 
+Query time : 0.5742819309
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php

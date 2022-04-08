@@ -1,0 +1,106 @@
+30/05/2018 08:04:44 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+30/05/2018 08:04:44 AM  
+ SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /
+30/05/2018 08:04:48 AM  
+ SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+30/05/2018 08:05:06 AM  
+ SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+30/05/2018 08:37:23 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+30/05/2018 08:37:23 AM  
+ SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /
+30/05/2018 08:37:24 AM  
+ SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+30/05/2018 09:48:28 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+30/05/2018 09:48:28 AM  
+ SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /
+30/05/2018 09:48:30 AM  
+ SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+30/05/2018 09:58:35 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+30/05/2018 09:58:35 AM  
+ SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /
+30/05/2018 09:58:36 AM  
+ SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+30/05/2018 10:02:29 AM  
+ SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+30/05/2018 10:04:31 AM  
+ SELECT * FROM categories WHERE CategoryID = 1 LIMIT 1 /tin-tuc-1.html
+30/05/2018 10:04:31 AM  
+ SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 1 
+                             ORDER BY Id DESC LIMIT 0,10 /tin-tuc-1.html
+30/05/2018 10:04:31 AM  
+ SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+30/05/2018 10:04:31 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /tin-tuc-1.html
+30/05/2018 10:04:31 AM  
+ SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /tin-tuc-1.html
+30/05/2018 10:04:35 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Intro,articles.Description,Title,categoryname,ShortTitle,articles.Meta,PublicDate,articles.MetaDesc
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND id = 1357 /tin-tuc/mua-the-cao-bang-paypal-1357.html
+30/05/2018 10:04:35 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = '1'
+                                         AND Id <> '1357' 
+                                         ORDER BY PublicDate DESC LIMIT 3 /tin-tuc/mua-the-cao-bang-paypal-1357.html
+30/05/2018 10:04:35 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /tin-tuc/mua-the-cao-bang-paypal-1357.html
+30/05/2018 10:04:35 AM  
+ SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /tin-tuc/mua-the-cao-bang-paypal-1357.html
+30/05/2018 10:04:43 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Intro,articles.Description,Title,categoryname,ShortTitle,articles.Meta,PublicDate,articles.MetaDesc
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND id = 1336 /tin-tuc/lich-lam-viec-tet-nguyen-dan-mau-tuat-1336.html
+30/05/2018 10:04:43 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = '1'
+                                         AND Id <> '1336' 
+                                         ORDER BY PublicDate DESC LIMIT 3 /tin-tuc/lich-lam-viec-tet-nguyen-dan-mau-tuat-1336.html
+30/05/2018 10:04:43 AM  
+ SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /tin-tuc/lich-lam-viec-tet-nguyen-dan-mau-tuat-1336.html
+30/05/2018 10:04:43 AM  
+ SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /tin-tuc/lich-lam-viec-tet-nguyen-dan-mau-tuat-1336.html
+10/09/2020 03:06:23 AM  
+ SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /the-giay

@@ -1,0 +1,1180 @@
+22/05/2018 04:04:07 AM File : 
+Query time : 0.6421611309
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:05:31 AM File : 
+Query time : 0.5960822105
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:06:09 AM File : 
+Query time : 0.5705080032
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:33 AM File : 
+Query time : 0.5752789974
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:40 AM File : 
+Query time : 0.5712378025
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:42 AM File : 
+Query time : 0.5917110443
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:43 AM File : 
+Query time : 0.5985739231
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:48 AM File : 
+Query time : 0.5699329376
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+22/05/2018 04:07:50 AM File : 
+Query time : 0.5742819309
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /home/test5.php
+<<<<<<< .mine
+31/05/2018 01:07:32 AM File : 
+Query time : 1.2263951302
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+||||||| .r7
+=======
+01/06/2018 07:23:09 AM File : 
+Query time : 0.6713390350
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '' ORDER BY TokenId DESC LIMIT 1 /user/PaymentBuyCardHasLogin
+>>>>>>> .r25
+07/06/2018 01:45:36 PM File : 
+Query time : 0.5424771309
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+11/06/2018 02:28:15 PM File : 
+Query time : 3.7565519810
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+11/06/2018 02:28:17 PM File : 
+Query time : 1.4048991203
+IP:::1SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /
+11/06/2018 02:28:45 PM File : 
+Query time : 1.7935719490
+IP:::1SELECT * FROM `user` WHERE username = 'trantronglong87@gmail.com' AND password = 'f051f5d52427c484c926e9b79e41c795' /user/login
+11/06/2018 02:28:48 PM File : 
+Query time : 1.6159160137
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = '52b0fc45-3b5d-4fd4-92b0-3a1eb6d0adef' AND userid = '5506' LIMIT 1 /
+13/06/2018 02:39:13 PM File : 
+Query time : 0.5896830559
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+15/06/2018 02:37:07 PM File : 
+Query time : 0.5782480240
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+15/06/2018 02:41:13 PM File : 
+Query time : 0.5159389973
+IP:::1SELECT * FROM tokens WHERE 	AuthToken = 'd5f90cbc-0dbf-4814-a1f8-72c763ddfdc0' AND userid = '5506' LIMIT 1 /
+02/07/2018 02:47:34 PM File : 
+Query time : 0.6068501472
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND articles.categoryid = 1 
+                                         ORDER BY Id DESC LIMIT 4 /
+02/07/2018 02:47:37 PM File : 
+Query time : 0.5021188259
+IP:::1SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+06/08/2019 05:33:39 PM File : 
+Query time : 0.5234959126
+IP:::1SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+07/08/2019 04:38:23 PM File : 
+Query time : 12.0504519939
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+07/08/2019 04:38:36 PM File : 
+Query time : 12.8221409321
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+07/08/2019 04:38:49 PM File : 
+Query time : 12.4735469818
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+07/08/2019 04:39:01 PM File : 
+Query time : 12.1835911274
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+07/08/2019 04:40:12 PM File : 
+Query time : 13.6891138554
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+07/08/2019 04:41:05 PM File : 
+Query time : 15.7865309715
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+07/08/2019 04:41:18 PM File : 
+Query time : 13.4438481331
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+08/08/2019 03:10:50 PM File : 
+Query time : 14.5879688263
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+08/08/2019 03:11:02 PM File : 
+Query time : 12.0890438557
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+08/08/2019 03:12:44 PM File : 
+Query time : 12.2140181065
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+08/08/2019 03:12:56 PM File : 
+Query time : 12.1968429089
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+08/08/2019 03:15:27 PM File : 
+Query time : 12.4806270599
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+08/08/2019 03:15:40 PM File : 
+Query time : 13.1391341686
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+08/08/2019 03:17:36 PM File : 
+Query time : 11.6835560799
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+08/08/2019 03:17:48 PM File : 
+Query time : 12.2989549637
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+08/08/2019 03:22:23 PM File : 
+Query time : 12.1922090054
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+08/08/2019 03:22:35 PM File : 
+Query time : 12.0772039890
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+08/08/2019 03:23:57 PM File : 
+Query time : 11.9382741451
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '5525' AND status IN(1,2) /
+08/08/2019 03:24:10 PM File : 
+Query time : 12.4982271194
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '5525' AND status = 2 /
+08/08/2019 03:30:25 PM File : 
+Query time : 11.8755891323
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '' AND status IN(1,2) /
+08/08/2019 03:30:38 PM File : 
+Query time : 12.8225049973
+IP:::1SELECT SUM(price) as dongbang FROM transactiontable WHERE UserID = '' AND status = 2 /
+08/08/2019 05:18:06 PM File : 
+Query time : 0.7810800076
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+08/08/2019 05:35:42 PM File : 
+Query time : 1.6659061909
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+12/09/2019 01:51:51 PM File : 
+Query time : 0.9661629200
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+12/09/2019 05:07:09 PM File : 
+Query time : 1.1861510277
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 1 
+                             ORDER BY Id DESC LIMIT 0,10 /tin-tuc-1.html
+12/09/2019 05:07:19 PM File : 
+Query time : 9.9171741009
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+12/09/2019 05:07:29 PM File : 
+Query time : 9.3200380802
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-t-c-1.html
+12/09/2019 05:07:30 PM File : 
+Query time : 0.7137000561
+IP:::1SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /tin-t-c-1.html
+12/09/2019 05:56:53 PM File : 
+Query time : 1.5926780701
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 1 
+                             ORDER BY Id DESC LIMIT 0,10 /tin-t-c-1.html
+12/09/2019 05:57:06 PM File : 
+Query time : 13.3515381813
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-t-c-1.html
+12/09/2019 05:59:37 PM File : 
+Query time : 0.9907801151
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 1 
+                             ORDER BY Id DESC LIMIT 0,10 /tin-tuc-1.html
+12/09/2019 05:59:47 PM File : 
+Query time : 10.1472709179
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+12/09/2019 05:59:48 PM File : 
+Query time : 0.7848598957
+IP:::1SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /tin-tuc-1.html
+12/09/2019 06:06:22 PM File : 
+Query time : 9.0860199928
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+12/09/2019 06:06:23 PM File : 
+Query time : 0.6553061008
+IP:::1SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /tin-tuc-1.html
+12/09/2019 06:07:23 PM File : 
+Query time : 5.7158169746
+IP:::1SELECT * FROM `user` WHERE UserName = 'info@24hpay.vn' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+12/09/2019 06:07:24 PM File : 
+Query time : 0.8863799572
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '14' AND status IN(1,2) /
+14/09/2019 04:33:41 PM File : 
+Query time : 0.6548349857
+IP:::1SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+14/09/2019 04:34:01 PM File : 
+Query time : 17.3383319378
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+14/09/2019 04:34:18 PM File : 
+Query time : 14.7749090195
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+14/09/2019 04:35:46 PM File : 
+Query time : 0.9313719273
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+14/09/2019 04:36:07 PM File : 
+Query time : 0.7109560966
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+14/09/2019 04:38:11 PM File : 
+Query time : 0.6576900482
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+15/09/2019 04:01:32 PM File : 
+Query time : 24.5620298386
+IP:::1select * from vnpayment WHERE 1=1 and (TransacsionType=1 or TransacsionType=2) and TransacsionType='2' AND CreateDate >='2016-01-09 00:00:00' AND CreateDate <='2019-09-15 23:59:59' ORDER BY CreateDate DESC /ThongKeBankNet/GetData
+20/09/2019 03:56:21 PM File : 
+Query time : 1.3639209270
+IP:::1SELECT 
+            v.Id,
+            v.RespCode,
+            t.ReferentId,
+            t.TransId,
+            v.CreateDate,
+            v.CreateUserId,
+            v.Amount,
+            t.Price,
+            v.TelcoStatus,
+            v.MobileNo,
+            v.ProviderCode,
+            v.Trace from vnpaytopupmobile as v INNER JOIN transactiontable as t on v.Id=t.ReferentId
+    where t.Type=1 AND v.CreateDate >='2016-09-01 00:00:00' AND v.CreateDate <='2019-09-20 23:59:59' Order by v.CreateDate Desc /QuanLyVnPayTopUpMobile/DanhSachVNPayTopUpMobile
+20/09/2019 03:56:24 PM File : 
+Query time : 2.2431039810
+IP:::1SELECT 
+            v.Id,
+            v.RespCode,
+            t.ReferentId,
+            t.TransId,
+            v.CreateDate,
+            v.CreateUserId,
+            v.Amount,
+            t.Price,
+            v.TelcoStatus,
+            v.MobileNo,
+            v.ProviderCode,
+            v.Trace from vnpaytopupmobile as v INNER JOIN transactiontable as t on v.Id=t.ReferentId
+    where t.Type=1 AND v.CreateDate >='2016-09-01 00:00:00' AND v.CreateDate <='2019-09-20 23:59:59' Order by v.CreateDate Desc Limit 0,20 /QuanLyVnPayTopUpMobile/DanhSachVNPayTopUpMobile
+24/09/2019 01:00:54 PM File : 
+Query time : 0.5087809563
+IP:::1SELECT a1.*,a2.CategoryName FROM articles as a1 join categories as a2 on a1.categoryid = a2.CategoryID WHERE a1.Id >=0 ORDER BY a1.Id ASC, a1.Id ASC /admin/modules/news/listing.php
+24/09/2019 01:04:52 PM File : 
+Query time : 0.5315399170
+IP:::1SELECT a1.*,a2.CategoryName FROM articles as a1 join categories as a2 on a1.categoryid = a2.CategoryID WHERE a1.Id >=0 ORDER BY a1.Id ASC, a1.Id ASC /admin/modules/news/listing.php
+24/09/2019 01:17:46 PM File : 
+Query time : 0.7689478397
+IP:::1SELECT a1.*,a2.CategoryName FROM articles as a1 join categories as a2 on a1.categoryid = a2.CategoryID WHERE a1.Id >=0 ORDER BY a1.Id ASC, a1.Id ASC /admin/modules/news/edit.php?record_id=8568&url=L2FkbWluL21vZHVsZXMvbmV3cy9saXN0aW5nLnBocA==
+01/10/2019 04:35:41 PM File : 
+Query time : 0.5093588829
+IP:::1SELECT * FROM `newstable` WHERE Type = '99' AND IsActive='1' /
+04/10/2019 03:09:22 PM File : 
+Query time : 2.0741977692
+IP:::1SELECT * FROM `newstable` WHERE Type = '99' AND IsActive='1' /
+04/10/2019 03:09:35 PM File : 
+Query time : 2.1332890987
+IP:::1SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+05/10/2019 03:41:47 PM File : 
+Query time : 1.7916910648
+IP:::1SELECT * FROM `user` WHERE UserName = 'trantronglong87@gmail.com' AND Password = '349693b32bbc39a42630318052e62a58' /user/login
+05/10/2019 03:41:57 PM File : 
+Query time : 1.9305701256
+IP:::1SELECT * FROM `user` WHERE UserName = 'paycard365@gmail.com' AND Password = 'ca714f17d0ed451968a37a72d0502584' /user/login
+05/10/2019 03:41:59 PM File : 
+Query time : 1.8312737942
+IP:::1SELECT * FROM `user` WHERE UserName = 'paycard365@gmail.com' AND Password = 'ca714f17d0ed451968a37a72d0502584' /user/login
+07/10/2019 02:55:37 PM File : 
+Query time : 0.5947329998
+IP:::1SELECT * FROM `newstable` WHERE Type = '99' AND IsActive='1' /
+07/10/2019 03:55:03 PM File : 
+Query time : 1.5340521336
+IP:::1SELECT * FROM `user` WHERE UserName = 'paycard365@gmail.com' AND Password = 'ca714f17d0ed451968a37a72d0502584' /user/login
+07/10/2019 03:55:04 PM File : 
+Query time : 0.7316820621
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '4' AND status IN(1,2) /
+14/10/2019 03:38:29 PM File : 
+Query time : 2.4351050854
+IP:::1SELECT * FROM `user` WHERE UserName = 'paycard365@gmail.com' AND Password = 'ca714f17d0ed451968a37a72d0502584' /user/login
+14/10/2019 03:38:31 PM File : 
+Query time : 1.8040041924
+IP:::1SELECT * FROM `user` WHERE UserName = 'paycard365@gmail.com' AND Password = 'ca714f17d0ed451968a37a72d0502584' /user/login
+14/10/2019 03:38:32 PM File : 
+Query time : 0.5700781345
+IP:::1SELECT SUM(price) as khadung FROM transactiontable WHERE UserID = '4' AND status IN(1,2) /
+16/10/2019 01:33:27 PM File : 
+Query time : 0.5066201687
+IP:::1SELECT * FROM `newstable` WHERE Type = '100' AND IsActive='1' /
+17/10/2019 04:34:41 PM File : 
+Query time : 1.9027578831
+IP:::1SELECT * FROM `user` WHERE UserName = 'paycard365@gmail.com' AND Password = 'ca714f17d0ed451968a37a72d0502584' /user/login
+07/01/2020 06:06:10 AM File : 
+Query time : 0.7081899643
+IP:221.5.80.66SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:06:15 AM File : 
+Query time : 0.6098308563
+IP:117.69.200.51SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:06:16 AM File : 
+Query time : 0.6205348969
+IP:163.172.148.62SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:06:38 AM File : 
+Query time : 1.0092318058
+IP:142.93.130.169SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:06:40 AM File : 
+Query time : 2.0459020138
+IP:163.172.219.130SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:06:53 AM File : 
+Query time : 0.9846010208
+IP:41.73.9.101SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:07:29 AM File : 
+Query time : 0.5333678722
+IP:117.95.162.21SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:08:46 AM File : 
+Query time : 0.8337180614
+IP:223.199.28.44SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+07/01/2020 06:09:09 AM File : 
+Query time : 1.2536211014
+IP:27.74.99.13SELECT userid FROM user WHERE username = 'mayhitbuiso1@gmail.com' LIMIT 1 /user/check_register
+07/01/2020 06:09:14 AM File : 
+Query time : 0.6059629917
+IP:59.57.148.142SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+07/01/2020 06:09:14 AM File : 
+Query time : 0.5990850925
+IP:51.158.98.121SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+07/01/2020 06:09:23 AM File : 
+Query time : 1.3117361069
+IP:27.74.99.13SELECT userid FROM user WHERE username = 'mayhitbuiso1@gmail.com' LIMIT 1 /user/check_register
+07/01/2020 06:10:06 AM File : 
+Query time : 0.9484400749
+IP:27.74.99.13SELECT userid FROM user WHERE username = 'mayhitbuiso1@gmail.com' LIMIT 1 /user/check_register
+07/01/2020 06:10:07 AM File : 
+Query time : 0.5349109173
+IP:222.190.222.248SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:10:07 AM File : 
+Query time : 0.5252361298
+IP:123.163.27.242SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:10:07 AM File : 
+Query time : 0.5680370331
+IP:183.87.153.98SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:10:07 AM File : 
+Query time : 0.6742238998
+IP:150.138.106.174SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:10:07 AM File : 
+Query time : 0.6735110283
+IP:163.172.148.62SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+07/01/2020 06:10:07 AM File : 
+Query time : 0.6774640083
+IP:41.73.9.101SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:10:07 AM File : 
+Query time : 0.7084100246
+IP:200.155.36.185SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:10:07 AM File : 
+Query time : 0.7056109905
+IP:106.85.135.216SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:20:17 AM File : 
+Query time : 0.5349249840
+IP:66.90.255.99SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:20:17 AM File : 
+Query time : 0.5771548748
+IP:103.21.150.184SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:20:41 AM File : 
+Query time : 1.2884371281
+IP:27.74.99.13SELECT userid FROM user WHERE username = 'mayhitbuiso1@gmail.com' LIMIT 1 /user/check_register
+07/01/2020 06:20:47 AM File : 
+Query time : 0.5243279934
+IP:41.73.9.101SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:21:05 AM File : 
+Query time : 0.5667629242
+IP:27.74.99.13SELECT userid FROM user WHERE username = 'mayhitbuiso1@email.com' LIMIT 1 /user/check_register
+07/01/2020 06:21:43 AM File : 
+Query time : 0.5852768421
+IP:46.45.129.16SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:28:56 AM File : 
+Query time : 1.6739599705
+IP:171.250.8.3SELECT * FROM `user` WHERE UserName = 'thuongthao23@gmail.com' AND Password='85098c147c135828140d081861b6d8df' AND `Status`=1 /v2/PayCard/LoginV2?userName=thuongthao23@gmail.com&password=chemgiochemguo
+07/01/2020 06:31:35 AM File : 
+Query time : 0.5783791542
+IP:171.250.8.3SELECT * FROM `user` WHERE UserName = 'thuongthao23@gmail.com' AND Password='85098c147c135828140d081861b6d8df' AND `Status`=1 /v2/PayCard/LoginV2?userName=thuongthao23@gmail.com&password=chemgiochemguo
+07/01/2020 06:35:06 AM File : 
+Query time : 0.8245520592
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password = '16ac40eeaacf56dbfa179dce1c1abf8b' /user/login
+07/01/2020 06:55:11 AM File : 
+Query time : 0.6222410202
+IP:163.172.148.62SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 06:59:10 AM File : 
+Query time : 0.5199770927
+IP:163.172.148.62SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+07/01/2020 07:04:51 AM File : 
+Query time : 0.9486849308
+IP:27.76.181.132SELECT * FROM `user` WHERE UserName = 'vanlan0502@gmail.com' AND Password = '38f792843ea575fac2cedcffe95d2870' /user/login
+07/01/2020 07:07:57 AM File : 
+Query time : 0.5228140354
+IP:163.172.154.72SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 07:14:37 AM File : 
+Query time : 1.5120689869
+IP:122.21.249.23SELECT * FROM `user` WHERE UserName = 'Taikhoanmoitao123456@gmail.com' AND Password = 'cf3ae185237426101cb83120f9ceadda' /user/login
+07/01/2020 07:27:46 AM File : 
+Query time : 1.0396070480
+IP:27.74.99.13SELECT UserId,UserName FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' LIMIT 1 /user/forgotpass
+07/01/2020 07:32:26 AM File : 
+Query time : 1.5824630260
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password = '9de30f027fc1514b737684e9da080d05' /user/login
+07/01/2020 07:32:29 AM File : 
+Query time : 1.6306440830
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password = '9de30f027fc1514b737684e9da080d05' /user/login
+07/01/2020 07:32:45 AM File : 
+Query time : 2.4432349205
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password = '9de30f027fc1514b737684e9da080d05' /user/login
+07/01/2020 07:32:47 AM File : 
+Query time : 1.5075910091
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password = '9de30f027fc1514b737684e9da080d05' /user/login
+07/01/2020 07:34:12 AM File : 
+Query time : 2.1076309681
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password='9de30f027fc1514b737684e9da080d05' AND `Status`=1 /v2/PayCard/LoginV2?userName=mayhitbuiso1@gmail.com&password=945672135233
+07/01/2020 07:34:19 AM File : 
+Query time : 0.8609240055
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password='9de30f027fc1514b737684e9da080d05' AND `Status`=1 /v2/PayCard/LoginV2?userName=mayhitbuiso1@gmail.com&password=945672135233
+07/01/2020 07:35:53 AM File : 
+Query time : 1.4884309769
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password='9de30f027fc1514b737684e9da080d05' AND `Status`=1 /v2/PayCard/LoginV2?userName=mayhitbuiso1@gmail.com&password=945672135233
+07/01/2020 07:36:19 AM File : 
+Query time : 0.6041300297
+IP:27.74.99.13SELECT * FROM `user` WHERE UserName = 'mayhitbuiso1@gmail.com' AND Password='9de30f027fc1514b737684e9da080d05' AND `Status`=1 /v2/PayCard/LoginV2?userName=mayhitbuiso1@gmail.com&password=945672135233
+07/01/2020 07:40:08 AM File : 
+Query time : 0.5378749371
+IP:163.172.154.72SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+07/01/2020 07:51:00 AM File : 
+Query time : 0.5030639172
+IP:163.172.148.62SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+07/01/2020 07:51:48 AM File : 
+Query time : 1.7572479248
+IP:116.105.53.139SELECT * FROM `user` WHERE UserName = 'maivantuyet13@gmail.com' AND Password = '844baf6ed3187020e9b178e3f5073202' /user/login
+07/01/2020 07:52:16 AM File : 
+Query time : 1.6531319618
+IP:116.105.53.139SELECT * FROM `user` WHERE UserName = 'maivantuyet13@gmail.com' AND Password = '844baf6ed3187020e9b178e3f5073202' /user/login
+07/01/2020 07:52:42 AM File : 
+Query time : 0.5400960445
+IP:116.105.53.139SELECT * FROM `user` WHERE UserName = 'maivantuyet13@gmail.com' AND Password = '844baf6ed3187020e9b178e3f5073202' /user/login
+07/01/2020 07:52:51 AM File : 
+Query time : 0.7263329029
+IP:116.105.53.139SELECT * FROM `user` WHERE UserName = 'maivantuyet13@gmail.com' AND Password = '844baf6ed3187020e9b178e3f5073202' /user/login
+12/01/2020 11:24:01 AM File : 
+Query time : 0.6139509678
+IP:123.160.1.139SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:24:48 AM File : 
+Query time : 1.6803579330
+IP:123.160.1.248SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:24:48 AM File : 
+Query time : 0.7084410191
+IP:103.21.150.184SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:24:49 AM File : 
+Query time : 1.8329129219
+IP:163.172.190.160SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:29:45 AM File : 
+Query time : 0.5484330654
+IP:223.199.20.183SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:29:45 AM File : 
+Query time : 0.9343719482
+IP:114.233.159.128SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:29:49 AM File : 
+Query time : 1.9747409821
+IP:117.69.200.8SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:29:52 AM File : 
+Query time : 0.5694718361
+IP:103.21.150.184SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:30:39 AM File : 
+Query time : 0.5350100994
+IP:163.172.154.72SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:31:46 AM File : 
+Query time : 0.6396641731
+IP:112.109.198.106SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:31:53 AM File : 
+Query time : 0.5276129246
+IP:183.164.239.175SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:31:54 AM File : 
+Query time : 1.2553110123
+IP:54.153.15.8SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:32:01 AM File : 
+Query time : 1.6993350983
+IP:163.172.219.130SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:32:03 AM File : 
+Query time : 0.9778299332
+IP:41.73.9.101SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:32:06 AM File : 
+Query time : 0.5310890675
+IP:117.57.91.121SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:32:18 AM File : 
+Query time : 0.5635528564
+IP:60.167.135.198SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:32:39 AM File : 
+Query time : 0.7093231678
+IP:119.23.168.1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:32:47 AM File : 
+Query time : 0.5934741497
+IP:123.160.1.117SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:32:49 AM File : 
+Query time : 0.5134391785
+IP:89.20.135.204SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' https://banthe247.com/
+12/01/2020 11:33:08 AM File : 
+Query time : 0.5066130161
+IP:119.23.168.1SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:34:53 AM File : 
+Query time : 0.5607678890
+IP:103.21.150.184SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:34:54 AM File : 
+Query time : 0.5273389816
+IP:150.138.106.174SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:35:14 AM File : 
+Query time : 0.5381259918
+IP:150.138.106.174SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:36:18 AM File : 
+Query time : 0.5577790737
+IP:119.23.168.1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:36:22 AM File : 
+Query time : 0.5234231949
+IP:163.172.190.160SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/01/2020 11:36:36 AM File : 
+Query time : 0.6124980450
+IP:54.153.15.8SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+12/01/2020 11:36:47 AM File : 
+Query time : 0.5221481323
+IP:163.172.154.72SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /
+16/10/2020 08:57:03 AM File : 
+Query time : 0.6871299744
+IP:::1SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+16/10/2020 08:57:14 AM File : 
+Query time : 2.7217409611
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+22/10/2020 07:47:01 AM File : 
+Query time : 0.9431169033
+IP:::1UPDATE mayinthecao SET rating = rating + 1 WHERE id = 5 /home/detail_may_in_the_cao.php
+22/10/2020 07:47:09 AM File : 
+Query time : 0.5271699429
+IP:::1UPDATE mayinthecao SET rating = rating + 1 WHERE id = 5 /home/detail_may_in_the_cao.php
+22/10/2020 07:47:43 AM File : 
+Query time : 0.5512340069
+IP:::1UPDATE mayinthecao SET rating = rating + 1 WHERE id = 5 /home/detail_may_in_the_cao.php
+22/10/2020 08:57:24 AM File : 
+Query time : 1.7337148190
+IP:::1UPDATE mayinthecao SET Rating = Rating + 1 WHERE id = 3 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+23/10/2020 01:10:44 AM File : 
+Query time : 1.0521309376
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+23/10/2020 03:59:10 AM File : 
+Query time : 1.7541840076
+IP:::1UPDATE mayinthecao SET rating = rating + 1 WHERE id = 4 /may-in/may-in-hoa-don-xprinter-xp-58iih-3.html
+23/10/2020 04:04:06 AM File : 
+Query time : 0.9019601345
+IP:::1SELECT * FROM mayinthecao WHERE id != 3 LIMIT 5 /may-in/may-in-hoa-don-xprinter-xp-58iih-3.html
+23/10/2020 04:04:09 AM File : 
+Query time : 1.5693001747
+IP:::1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /may-in/may-in-hoa-don-xprinter-xp-58iih-3.html
+23/10/2020 04:06:53 AM File : 
+Query time : 0.5323228836
+IP:::1UPDATE mayinthecao SET rating = rating + 1 WHERE id = 4 /may-in/may-in-hoa-don-xprinter-xp-58iih-3.html
+23/10/2020 04:09:18 AM File : 
+Query time : 0.5869340897
+IP:::1SELECT * FROM faqs ORDER BY CreateDate DESC LIMIT 0,10 /chuyen-muc-hoi-dap
+23/10/2020 02:24:41 PM File : 
+Query time : 0.6491658688
+IP:::1SELECT * FROM mayinthecao left join city on mayinthecao.id_city = city.id_city WHERE id = '4' LIMIT 1 /may-in/may-in-hoa-don-rongta-rp58b-4.html
+23/10/2020 02:41:12 PM File : 
+Query time : 0.5147111416
+IP:::1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /may-in/may-in-hoa-don-rongta-rp58b-4.html
+25/10/2020 06:58:40 AM File : 
+Query time : 1.1536259651
+IP:::1INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('','','','','','') /may-in/lien-he-dat-mua.html
+25/10/2020 06:59:35 AM File : 
+Query time : 0.8129391670
+IP:::1INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('','','','','','') /may-in/lien-he-dat-mua.html
+25/10/2020 06:59:52 AM File : 
+Query time : 0.5026259422
+IP:::1INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('','','','','','') /may-in/lien-he-dat-mua.html
+25/10/2020 08:37:13 AM File : 
+Query time : 0.6485948563
+IP:::1INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('','','','','','') /may-in/lien-he-dat-mua.html
+28/10/2020 01:44:16 AM File : 
+Query time : 1.5712409019
+IP:::1SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+29/10/2020 02:57:29 AM File : 
+Query time : 0.8443541527
+IP:::1SELECT * FROM mayinthecao WHERE id != 3 LIMIT 5 /may-in/may-in-hoa-don-xprinter-xp-58iih-3.html
+12/11/2020 03:49:02 AM File : 
+Query time : 1.1051559448
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 663 /game-app/crystal-dynamics-663.html
+12/11/2020 03:49:11 AM File : 
+Query time : 0.8663940430
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 663 /amp-game-app/game-mad-skills-motocross-2-663.html
+12/11/2020 03:49:40 AM File : 
+Query time : 0.7362768650
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /game-app/game-shooting-archery-662.html
+12/11/2020 03:50:10 AM File : 
+Query time : 1.4097769260
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /game-app/game-shooting-archery-662.html
+12/11/2020 02:34:59 PM File : 
+Query time : 1.0682489872
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 01:11:43 AM File : 
+Query time : 1.2897310257
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '1'
+                            AND Id != '659' 
+                            ORDER BY PublicDate DESC LIMIT 4 /amp-tin-tuc/mua-no-the-dien-thoai-659.html
+13/11/2020 03:19:08 AM File : 
+Query time : 1.8277931213
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:21:55 AM File : 
+Query time : 1.2003839016
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:22:16 AM File : 
+Query time : 1.3591380119
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:22:39 AM File : 
+Query time : 1.1711549759
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:22:53 AM File : 
+Query time : 1.7866380215
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:23:18 AM File : 
+Query time : 1.3190081120
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:23:27 AM File : 
+Query time : 0.6917099953
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:23:36 AM File : 
+Query time : 1.2873828411
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:23:45 AM File : 
+Query time : 0.7476778030
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:23:53 AM File : 
+Query time : 0.6666700840
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:24:21 AM File : 
+Query time : 0.8527619839
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:26:33 AM File : 
+Query time : 1.7534620762
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:44:51 AM File : 
+Query time : 4.5833809376
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 11 
+                             ORDER BY Id DESC LIMIT 0,10 /the-thao-11.html
+13/11/2020 03:45:27 AM File : 
+Query time : 1.5670089722
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:47:37 AM File : 
+Query time : 1.2198569775
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:52:03 AM File : 
+Query time : 0.8219780922
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:52:58 AM File : 
+Query time : 1.6022579670
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:53:11 AM File : 
+Query time : 1.7605171204
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:54:36 AM File : 
+Query time : 1.0221340656
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:55:32 AM File : 
+Query time : 1.6113328934
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:55:47 AM File : 
+Query time : 1.5934829712
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:57:38 AM File : 
+Query time : 0.8970692158
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:59:10 AM File : 
+Query time : 0.8378520012
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 03:59:39 AM File : 
+Query time : 1.3886461258
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:00:41 AM File : 
+Query time : 0.7107179165
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:01:53 AM File : 
+Query time : 1.5520870686
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:04:02 AM File : 
+Query time : 1.8896019459
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:06:27 AM File : 
+Query time : 1.3787550926
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:07:39 AM File : 
+Query time : 1.5649759769
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:19:47 AM File : 
+Query time : 1.9644219875
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:19:49 AM File : 
+Query time : 0.5138559341
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:23:11 AM File : 
+Query time : 0.8503239155
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+13/11/2020 04:28:56 AM File : 
+Query time : 1.7240829468
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 658 /amp-game-app/game-golf-king-658.html
+13/11/2020 07:00:48 AM File : 
+Query time : 1.8405590057
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 658 /amp-game-app/game-golf-king-658.html
+14/11/2020 02:44:43 AM File : 
+Query time : 0.9325611591
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+14/11/2020 07:12:38 AM File : 
+Query time : 1.2485718727
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 10
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /dang-bang-10.html
+14/11/2020 07:24:15 AM File : 
+Query time : 0.8107280731
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 1
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /home/amp_app_game_type.php
+14/11/2020 07:24:30 AM File : 
+Query time : 0.6273360252
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 13
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /tri-tue-13.html
+16/11/2020 01:01:37 AM File : 
+Query time : 0.5143849850
+IP:::1SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+16/11/2020 04:15:54 AM File : 
+Query time : 1.2508509159
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 10
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /dang-bang-10.html
+16/11/2020 04:16:02 AM File : 
+Query time : 1.0819039345
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 11
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /the-thao-11.html
+16/11/2020 04:16:11 AM File : 
+Query time : 1.0205109119
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 13
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /tri-tue-13.html
+16/11/2020 04:16:16 AM File : 
+Query time : 0.8421430588
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 14
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /chien-thuat-14.html
+16/11/2020 07:05:18 AM File : 
+Query time : 0.9366409779
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 8
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /amp-game-app-8.html
+16/11/2020 07:27:53 AM File : 
+Query time : 1.0130801201
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 11
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /the-thao-11.html
+16/11/2020 09:53:24 AM File : 
+Query time : 0.8902881145
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 11
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /the-thao-11.html
+18/11/2020 01:33:38 AM File : 
+Query time : 1.2036049366
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 1
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /amp-tin-tuc-1.html
+18/11/2020 09:52:28 AM File : 
+Query time : 1.1732819080
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 1
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /home/amp_app_game_type.php
+18/11/2020 09:53:02 AM File : 
+Query time : 1.1782240868
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy,articles.Description
+                            FROM articles 
+                            LEFT JOIN categories ON categories.CategoryID = 1
+                            WHERE IsActive = 1 AND category_parent_id = categories.CategoryID
+                            ORDER BY Id DESC LIMIT 5 /home/amp_app_game_type.php
+21/11/2020 10:35:00 AM File : 
+Query time : 2.1667280197
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /game-app/game-bai-phom-664.html
+21/11/2020 10:51:05 AM File : 
+Query time : 1.8117699623
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+25/11/2020 03:09:35 AM File : 
+Query time : 1.3320128918
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+25/11/2020 03:09:41 AM File : 
+Query time : 0.6102609634
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+27/11/2020 08:29:17 AM File : 
+Query time : 0.6355719566
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 01:16:40 AM File : 
+Query time : 1.1169908047
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+09/12/2020 02:50:22 AM File : 
+Query time : 1.7784559727
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:51:25 AM File : 
+Query time : 1.8057639599
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:52:34 AM File : 
+Query time : 0.6261920929
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:55:39 AM File : 
+Query time : 1.7644081116
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:56:32 AM File : 
+Query time : 0.8641059399
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:57:06 AM File : 
+Query time : 1.6143970490
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:57:22 AM File : 
+Query time : 1.5292520523
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:57:38 AM File : 
+Query time : 0.5371029377
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+09/12/2020 02:59:07 AM File : 
+Query time : 0.5884280205
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle,view,category_parent_id
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                            WHERE IsActive = 1 AND articles.categoryid = 8 
+                            ORDER BY view DESC, Id DESC LIMIT 5 /game-app-8.html
+09/12/2020 03:02:55 AM File : 
+Query time : 0.5006759167
+IP:::1SELECT * FROM faqs ORDER BY createdate DESC LIMIT 4 /tin-tuc/nap-tien-tinder-648.html
+09/12/2020 03:23:15 AM File : 
+Query time : 1.1540989876
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+09/12/2020 06:59:36 AM File : 
+Query time : 1.1426370144
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 1 
+                             ORDER BY Id DESC LIMIT 0,10 /tin-tuc-1.html
+09/12/2020 08:59:35 AM File : 
+Query time : 0.5400350094
+IP:192.168.1.29SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+11/12/2020 01:12:40 AM File : 
+Query time : 1.3528971672
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+11/12/2020 01:28:57 AM File : 
+Query time : 1.4149549007
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+11/12/2020 01:29:45 AM File : 
+Query time : 0.7819089890
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+11/12/2020 01:30:27 AM File : 
+Query time : 0.6929159164
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+11/12/2020 01:34:23 AM File : 
+Query time : 1.3206160069
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+11/12/2020 02:06:24 AM File : 
+Query time : 1.0828621387
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+11/12/2020 02:15:47 AM File : 
+Query time : 0.7102839947
+IP:192.168.1.46SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 1 
+                             ORDER BY Id DESC LIMIT 0,10 /tin-tuc-1.html
+11/12/2020 02:15:47 AM File : 
+Query time : 0.7273259163
+IP:192.168.1.46SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+11/12/2020 02:15:51 AM File : 
+Query time : 0.6666240692
+IP:192.168.1.46SELECT Id,articles.categoryid,link_301,ImageUrl,Intro,new_tdgy,new_ndgy,articles.Description,Title,categoryname,ShortTitle,articles.Meta,PublicDate,articles.MetaDesc
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND id = 638 /tin-tuc/nap-the-ocean-war-638.html
+11/12/2020 02:29:58 AM File : 
+Query time : 1.1826691628
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+11/12/2020 02:31:29 AM File : 
+Query time : 1.3076770306
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+11/12/2020 02:53:14 AM File : 
+Query time : 0.6177549362
+IP:192.168.1.32SELECT Id,articles.categoryid,link_301,ImageUrl,Intro,new_tdgy,new_ndgy,articles.Description,Title,categoryname,ShortTitle,articles.Meta,PublicDate,articles.MetaDesc
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND Id = 324 /amp-huong-dan-su-dung/cac-cach-nap-the-vina-tra-truoc-tra-sau-pho-bien-nhat-324.html
+11/12/2020 03:02:26 AM File : 
+Query time : 0.7383379936
+IP:192.168.1.32SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle,view,category_parent_id
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                            WHERE IsActive = 1 AND articles.categoryid = 8 
+                            ORDER BY view DESC, Id DESC LIMIT 5 /amp-game-app-8.html
+11/12/2020 03:08:10 AM File : 
+Query time : 0.6245379448
+IP:192.168.1.32SELECT * FROM `newstable` WHERE Type = '101' AND IsActive='1' /
+11/12/2020 03:12:14 AM File : 
+Query time : 1.5076258183
+IP:192.168.1.32UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+11/12/2020 03:13:16 AM File : 
+Query time : 0.8919429779
+IP:192.168.1.32UPDATE articles SET view = view + 1 WHERE Id = 662 /amp-game-app/game-shooting-archery-662.html
+11/12/2020 03:17:39 AM File : 
+Query time : 0.8010818958
+IP:192.168.1.32UPDATE articles SET view = view + 1 WHERE Id = 661 /game-app/game-crazy-tien-len-661.html
+11/12/2020 03:21:40 AM File : 
+Query time : 0.7813649178
+IP:192.168.1.32UPDATE articles SET view = view + 1 WHERE Id = 661 /amp-game-app/game-crazy-tien-len-661.html
+12/12/2020 01:05:47 AM File : 
+Query time : 1.0696928501
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle,view,category_parent_id
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                            WHERE IsActive = 1 AND articles.categoryid = 8 
+                            ORDER BY view DESC, Id DESC LIMIT 5 /amp-game-app-8.html
+12/12/2020 01:16:19 AM File : 
+Query time : 0.7801349163
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+12/12/2020 02:32:00 AM File : 
+Query time : 0.8196330070
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 664 /amp-game-app/game-bai-phom-664.html
+12/12/2020 03:08:00 AM File : 
+Query time : 1.4931330681
+IP:192.168.1.34SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 5 
+                             ORDER BY Id DESC LIMIT 0,10 /huong-dan-su-dung-5.html
+12/12/2020 03:08:13 AM File : 
+Query time : 4.1044509411
+IP:192.168.1.34SELECT Id,articles.categoryid,link_301,ImageUrl,Intro,new_tdgy,new_ndgy,articles.Description,Title,categoryname,ShortTitle,articles.Meta,PublicDate,articles.MetaDesc
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND id = 256 /huong-dan-su-dung/cach-nap-tien-dien-thoai-cho-thue-bao-khac-nhanh-chong-nhat-256.html
+12/12/2020 03:08:14 AM File : 
+Query time : 0.8117020130
+IP:192.168.1.34SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '5'
+                            AND Id != '256' 
+                            ORDER BY PublicDate DESC LIMIT 4 /huong-dan-su-dung/cach-nap-tien-dien-thoai-cho-thue-bao-khac-nhanh-chong-nhat-256.html
+12/12/2020 03:08:26 AM File : 
+Query time : 3.4564819336
+IP:192.168.1.34SELECT Id,articles.categoryid,link_301,ImageUrl,Intro,new_tdgy,new_ndgy,articles.Description,Title,categoryname,ShortTitle,articles.Meta,PublicDate,articles.MetaDesc
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND Id = 256 /amp-huong-dan-su-dung/cach-nap-tien-dien-thoai-cho-thue-bao-khac-nhanh-chong-nhat-256.html
+12/12/2020 03:08:27 AM File : 
+Query time : 0.5196380615
+IP:192.168.1.34SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '5'
+                            AND Id != '256' 
+                            ORDER BY PublicDate DESC LIMIT 4 /amp-huong-dan-su-dung/cach-nap-tien-dien-thoai-cho-thue-bao-khac-nhanh-chong-nhat-256.html
+12/12/2020 03:10:52 AM File : 
+Query time : 2.7020719051
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /tin-tuc-1.html
+12/12/2020 03:10:53 AM File : 
+Query time : 0.6953520775
+IP:::1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /tin-tuc-1.html
+12/12/2020 03:11:07 AM File : 
+Query time : 2.4543008804
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '1'
+                            AND Id != '730' 
+                            ORDER BY PublicDate DESC LIMIT 4 /tin-tuc/datacode-mobifone-730.html
+12/12/2020 03:11:08 AM File : 
+Query time : 1.1953561306
+IP:::1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /tin-tuc/datacode-mobifone-730.html
+12/12/2020 03:11:21 AM File : 
+Query time : 0.9264881611
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '1'
+                            AND Id != '730' 
+                            ORDER BY PublicDate DESC LIMIT 4 /tin-tuc/datacode-mobifone-730.html
+12/12/2020 03:11:22 AM File : 
+Query time : 0.9056489468
+IP:::1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /tin-tuc/datacode-mobifone-730.html
+12/12/2020 03:11:31 AM File : 
+Query time : 1.9692521095
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '1'
+                            AND Id != '728' 
+                            ORDER BY PublicDate DESC LIMIT 4 /tin-tuc/visa-debit-techcombank-728.html
+12/12/2020 03:11:32 AM File : 
+Query time : 0.9421529770
+IP:::1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /tin-tuc/visa-debit-techcombank-728.html
+12/12/2020 03:11:37 AM File : 
+Query time : 1.4560959339
+IP:::1SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '1'
+                            AND Id != '728' 
+                            ORDER BY PublicDate DESC LIMIT 4 /amp-tin-tuc/visa-debit-techcombank-728.html
+12/12/2020 03:12:17 AM File : 
+Query time : 2.0590031147
+IP:192.168.1.43SELECT Id,articles.categoryid,ImageUrl,Title,categoryname,ShortTitle
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.CategoryID
+                            WHERE IsActive = 1 AND articles.categoryid = '5'
+                            AND Id != '324' 
+                            ORDER BY PublicDate DESC LIMIT 4 /amp-huong-dan-su-dung/cac-cach-nap-the-vina-tra-truoc-tra-sau-pho-bien-nhat-324.html
+12/12/2020 03:20:13 AM File : 
+Query time : 0.5079541206
+IP:192.168.1.34SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /huong-dan-su-dung/cac-cach-nap-the-vina-tra-truoc-tra-sau-pho-bien-nhat-324.html
+12/12/2020 03:32:42 AM File : 
+Query time : 0.5110070705
+IP:::1SELECT * FROM `newstable` WHERE Type = '88' AND IsActive='1' /
+12/12/2020 03:32:44 AM File : 
+Query time : 1.0303609371
+IP:::1SELECT * FROM cardtype WHERE ProviderId = '1' AND Status = 1 /user/GetListCardTypeByProviderId?PrividerId=1
+12/12/2020 08:35:01 AM File : 
+Query time : 1.1585049629
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 694 /game-app/game-homescapes-694.html
+12/12/2020 08:35:15 AM File : 
+Query time : 0.5342819691
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 693 /game-app/game-mad-skills-motocross-2-693.html
+12/12/2020 08:36:14 AM File : 
+Query time : 0.6652700901
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 691 /amp-game-app/trum-79-club-691.html
+12/12/2020 09:46:56 AM File : 
+Query time : 0.5913150311
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle
+                             FROM articles 
+                             LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                             WHERE IsActive = 1 AND articles.categoryid = 1 
+                             ORDER BY Id DESC LIMIT 0,10 /tin-tuc-1.html
+14/12/2020 07:07:49 AM File : 
+Query time : 1.1511070728
+IP:::1SELECT count(1) FROM articles 
+                              LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                              WHERE IsActive = 1 AND articles.categoryid = 1 /amp-tin-tuc-1.html
+14/12/2020 10:14:57 AM File : 
+Query time : 1.3544220924
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:17:04 AM File : 
+Query time : 1.0893509388
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:17:24 AM File : 
+Query time : 0.9852979183
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:18:58 AM File : 
+Query time : 0.7413730621
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:20:19 AM File : 
+Query time : 1.0788838863
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:22:30 AM File : 
+Query time : 1.5564789772
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:23:17 AM File : 
+Query time : 0.9405682087
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:33:46 AM File : 
+Query time : 1.6723768711
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:34:44 AM File : 
+Query time : 0.5458531380
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:37:48 AM File : 
+Query time : 1.7100901604
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+14/12/2020 10:39:07 AM File : 
+Query time : 0.5082612038
+IP:::1UPDATE articles SET view = view + 1 WHERE Id = 690 /amp-game-app/game-langrisser-sea-690.html
+15/12/2020 01:08:21 AM File : 
+Query time : 2.1960499287
+IP:::1SELECT Id,articles.categoryid,link_301,ImageUrl,Intro,new_tdgy,new_ndgy,articles.Description,Title,categoryname,ShortTitle,articles.Meta,PublicDate,articles.MetaDesc
+                                         FROM articles 
+                                         LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                                         WHERE IsActive = 1 AND Id = 730 /amp-tin-tuc/datacode-mobifone-730.html
+16/12/2020 01:09:01 AM File : 
+Query time : 1.0427119732
+IP:::1SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle,view,category_parent_id
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                            WHERE IsActive = 1 AND articles.categoryid = 8 
+                            ORDER BY view DESC, Id DESC LIMIT 10 /amp-game-app-8.html
+24/12/2020 01:53:06 AM File : 
+Query time : 0.5072331429
+IP:::1SELECT * FROM `newstable` WHERE Type = '300' AND IsActive='1' /song-bac-9.html
+19/03/2021 09:43:41 AM File : 
+Query time : 0.6156959534
+IP:::1SELECT * FROM comment WHERE url_cm = '/may-in/may-in-hoa-don-rongta-rp58b-4.html' /may-in/may-in-hoa-don-rongta-rp58b-4.html

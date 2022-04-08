@@ -1,0 +1,555 @@
+20/10/2020 02:13:20 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:17:22 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:18:06 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:21:36 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:21:37 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:21:38 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:21:38 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:21:38 AM Unknown column 'price' in 'field list'
+select id, name, image, price from mayinthecao where status=1 /home/may_in_the_cao.php
+20/10/2020 02:23:10 AM Unknown column 'status' in 'where clause'
+SELECT * FROM `newstable` WHERE status='1' /home/may_in_the_cao.php
+20/10/2020 02:23:20 AM Unknown column 'status' in 'where clause'
+SELECT * FROM `newstable` WHERE status ='1' /home/may_in_the_cao.php
+20/10/2020 02:26:28 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id DESC LIMIT 4' at line 1
+SELECT id,name,price,image,status FROM mayinthecao WHERE status = 1 AND ORDER BY id DESC LIMIT 4 /home/may_in_the_cao.php
+20/10/2020 02:33:46 AM Unknown column 'images' in 'field list'
+SELECT id, name, images, price FROM mayinthecao /mayinthecao
+20/10/2020 02:33:54 AM Unknown column 'price' in 'field list'
+SELECT id, name, image, price FROM mayinthecao /mayinthecao
+20/10/2020 02:34:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM mayinthecao' at line 1
+SELECT id, name, image, price,  FROM mayinthecao /mayinthecao
+20/10/2020 02:34:18 AM Unknown column 'price' in 'field list'
+SELECT id, name, image, price, status FROM mayinthecao /mayinthecao
+20/10/2020 03:11:34 AM Unknown column 'price' in 'field list'
+SELECT image,price,name FROM mayinthecao WHERE status=1 /mayinthecao
+20/10/2020 03:11:34 AM Unknown column 'price' in 'field list'
+SELECT image,price,name FROM mayinthecao WHERE status=1 /mayinthecao
+20/10/2020 03:12:18 AM Unknown column 'price' in 'field list'
+SELECT image,price,name FROM mayinthecao WHERE status=1 /mayinthecao
+20/10/2020 03:12:18 AM Unknown column 'price' in 'field list'
+SELECT image,price,name FROM mayinthecao WHERE status=1 /mayinthecao
+20/10/2020 03:13:04 AM Unknown column 'mayinthecao.price' in 'field list'
+SELECT image,mayinthecao.price,name FROM mayinthecao WHERE status=1 /mayinthecao
+20/10/2020 03:13:04 AM Unknown column 'mayinthecao.price' in 'field list'
+SELECT image,mayinthecao.price,name FROM mayinthecao WHERE status=1 /mayinthecao
+21/10/2020 07:15:38 AM Unknown column 'UrlCm' in 'field list'
+INSERT INTO comment (`UrlCm`,`CreateBy`,`Content`,`CreateDate`,`Status`) VALUES ('','','',NOW(),'1') /home/detail_may_in_the_cao.php
+21/10/2020 07:17:07 AM Unknown column 'UrlCm' in 'field list'
+INSERT INTO comment (`UrlCm`,`CreateBy`,`Content`,`CreateDate`,`Status`) VALUES ('','','',NOW(),'1') /home/detail_may_in_the_cao.php
+21/10/2020 07:19:50 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('','','',NOW(),'1')' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('','','',NOW(),'1') /home/detail_may_in_the_cao.php
+22/10/2020 03:28:06 AM Unknown column 'ShortUrl' in 'where clause'
+SELECT * FROM mayinthecao WHERE ShortUrl = '' LIMIT 1 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM shopping_mall WHERE Id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:32:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:34:52 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:34:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:34:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 9' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 9 /home/detail_may_in_the_cao.php
+22/10/2020 03:35:06 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:35:08 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:35:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:35:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:35:36 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:36:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:37:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:37:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:37:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:38:03 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:38:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:38:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 03:38:40 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM mayinthecao WHERE Id !=  LIMIT 5 /home/detail_may_in_the_cao.php
+22/10/2020 06:56:50 AM Table 'banthe247_db.shopping_mall' doesn't exist
+UPDATE shopping_mall SET rating = rating + 1 WHERE id = 0 /home/detail_may_in_the_cao.php
+22/10/2020 08:28:46 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 4' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 4 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+22/10/2020 08:29:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 4' at line 1
+SELECT * FROM mayinthecao WHERE id !=  LIMIT 4 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+22/10/2020 08:30:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'status=1 ORDER BY id LIMIT 1' at line 1
+SELECT * FROM mayinthecao WHERE mayin_url = '0' status=1 ORDER BY id LIMIT 1 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+22/10/2020 08:41:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'đánh giá WHERE id = 0' at line 1
+UPDATE mayinthecao SET Rating = Rating + Gửi đánh giá WHERE id = 0 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+22/10/2020 08:44:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'đánh giá WHERE id = 3' at line 1
+UPDATE mayinthecao SET Rating = Rating + Gửi đánh giá WHERE id = 3 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+22/10/2020 08:44:29 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'đánh giá WHERE id = 3' at line 1
+UPDATE mayinthecao SET rating = rating + Gửi đánh giá WHERE id = 3 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+22/10/2020 08:47:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT * FROM mayinthecao WHERE  LIMIT 1 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+22/10/2020 09:20:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT * FROM mayinthecao WHERE  LIMIT 1 /may-in/may-in-hoa-don-xprinter-xp-58iih-new3.html
+23/10/2020 03:25:36 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:38 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:38 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:39 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:39 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/m' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status','rating') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ứdw','qưedw',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:56 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:25:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưqwe','qưedawd',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:53 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:55 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:29:55 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa' at line 1
+INSERT INTO comment ('url_cm','CreateBy','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','qwew','ádretyu',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:06 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:55:07 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdfg','sderftgyhujk',NOW(),'1') /ajax/comment.php
+23/10/2020 03:56:55 AM Unknown column 'id' in 'where clause'
+UPDATE comment SET rating = rating + 1 WHERE id = 4 /may-in/may-in-hoa-don-xprinter-xp-58iih-3.html
+23/10/2020 04:12:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:19 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:19 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:12:22 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','sdet','frgthyjukilo;p',NOW(),'1') /ajax/comment.php
+23/10/2020 04:13:12 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ẻtytu','dfghjkl',NOW(),'1') /ajax/comment.php
+23/10/2020 04:13:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ẻtytu','dfghjkl',NOW(),'1') /ajax/comment.php
+23/10/2020 04:13:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ẻtytu','dfghjkl',NOW(),'1') /ajax/comment.php
+23/10/2020 04:13:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ẻtytu','dfghjkl',NOW(),'1') /ajax/comment.php
+23/10/2020 04:13:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ẻtytu','dfghjkl',NOW(),'1') /ajax/comment.php
+23/10/2020 04:13:13 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ẻtytu','dfghjkl',NOW(),'1') /ajax/comment.php
+23/10/2020 04:57:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','gthyh','fghtyjukilo',NOW(),'1') /ajax/comment.php
+23/10/2020 04:57:00 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','gthyh','fghtyjukilo',NOW(),'1') /ajax/comment.php
+23/10/2020 04:57:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','gthyh','fghtyjukilo',NOW(),'1') /ajax/comment.php
+23/10/2020 07:31:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 07:31:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','DFERG','dfrgthyjuk',DATE(),'1') /ajax/comment.php
+23/10/2020 08:04:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','dfrgthy','fergthyjuki',DATE(),'1') /ajax/comment.php
+23/10/2020 08:04:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','dfrgthy','fergthyjuki',DATE(),'1') /ajax/comment.php
+23/10/2020 08:04:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','dfrgthy','fergthyjuki',DATE(),'1') /ajax/comment.php
+23/10/2020 08:04:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','dfrgthy','fergthyjuki',DATE(),'1') /ajax/comment.php
+23/10/2020 08:04:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','dfrgthy','fergthyjuki',DATE(),'1') /ajax/comment.php
+23/10/2020 08:30:50 AM Unknown column 'id' in 'where clause'
+SELECT * FROM comment WHERE id != 3 and url_cm = '/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html' /may-in/may-in-hoa-don-xprinter-xp-58iih-3.html
+23/10/2020 08:31:57 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ss','dfghjk',DATE(),'1') /ajax/comment.php
+23/10/2020 08:31:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ss','dfghjk',DATE(),'1') /ajax/comment.php
+23/10/2020 08:31:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ss','dfghjk',DATE(),'1') /ajax/comment.php
+23/10/2020 08:31:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ss','dfghjk',DATE(),'1') /ajax/comment.php
+23/10/2020 08:33:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưedrft','dẻgth',NOW(),'1') /ajax/comment.php
+23/10/2020 08:33:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưedrft','dẻgth',NOW(),'1') /ajax/comment.php
+23/10/2020 08:33:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưedrft','dẻgth',NOW(),'1') /ajax/comment.php
+23/10/2020 08:33:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưedrft','dẻgth',NOW(),'1') /ajax/comment.php
+23/10/2020 08:33:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưedrft','dẻgth',NOW(),'1') /ajax/comment.php
+23/10/2020 08:33:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưedrft','dẻgth',NOW(),'1') /ajax/comment.php
+23/10/2020 08:33:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','CreateDate','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','ưedrft','dẻgth',NOW(),'1') /ajax/comment.php
+23/10/2020 08:34:18 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''url_cm','cm_user','Content','date','Status') VALUES ('/may-in/may-in-hoa-don-xp' at line 1
+INSERT INTO comment ('url_cm','cm_user','Content','date','Status') VALUES ('/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','dẻty','dfrgtyhujik',NOW(),'1') /ajax/comment.php
+23/10/2020 02:40:12 PM Unknown column 'city.id_city' in 'on clause'
+SELECT * FROM mayinthecao left join city on mayinthecao.id_city = city.id_city WHERE id = '4' LIMIT 1 /may-in/may-in-hoa-don-rongta-rp58b-4.html
+23/10/2020 02:40:44 PM Unknown column 'mayinthecao.cit_id' in 'on clause'
+SELECT * FROM mayinthecao left join city on mayinthecao.cit_id = city.cit_id WHERE id = '4' LIMIT 1 /may-in/may-in-hoa-don-rongta-rp58b-4.html
+24/10/2020 04:03:54 AM Unknown column 'id' in 'where clause'
+SELECT * FROM thong_tin_lien_he join city on thong_tin_lien_he.sp_id = mayinthecao.id WHERE id = '5' LIMIT 1 /may-in/may-in-hoa-don-antech-rp-58bu-5/may-in-hoa-don-antech-rp-58bu-5.html
+24/10/2020 04:03:58 AM Unknown column 'id' in 'where clause'
+SELECT * FROM thong_tin_lien_he join city on thong_tin_lien_he.sp_id = mayinthecao.id WHERE id = '5' LIMIT 1 /may-in/may-in-hoa-don-antech-rp-58bu-5/may-in-hoa-don-antech-rp-58bu-5.html
+24/10/2020 04:05:17 AM Unknown column 'mayinthecao.id' in 'on clause'
+SELECT * FROM thong_tin_lien_he join city on thong_tin_lien_he.sp_id = mayinthecao.id WHERE thongtin_id = '5' LIMIT 1 /may-in/may-in-hoa-don-antech-rp-58bu-5/may-in-hoa-don-antech-rp-58bu-5.html
+25/10/2020 03:12:11 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-1],[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 03:24:11 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 03:24:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 03:41:36 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 03:48:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 03:48:47 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 06:29:46 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 06:33:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],[value-3],[value-4],[value-5],[value-6])' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',[value-2],[value-3],[value-4],[value-5],[value-6]) /may-in/lien-he-dat-mua.html
+25/10/2020 06:36:05 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+25/10/2020 06:43:27 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+25/10/2020 06:45:49 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+25/10/2020 06:52:33 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+25/10/2020 06:52:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+25/10/2020 06:53:01 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+25/10/2020 06:53:34 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+25/10/2020 06:57:20 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+INSERT INTO `thong_tin_lien_he`(`thongtin_id`, `sp_id`, `cm_id`, `ghi_chu`, `email`, `sdt`) VALUES ('',,,,,) /may-in/lien-he-dat-mua.html
+26/10/2020 01:10:43 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''',,'','')' at line 1
+INSERT INTO thong_tin_lien_he (`ghi_chu`, `email`, `sdt`, `name`, `so_luong`, `cit_name`, `image`) VALUES ('','',,'',,'','') /may-in/lien-he-dat-mua.html
+26/10/2020 02:09:17 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',Máy in hóa đơn Rongta RP58B,2,Nam ??nh,may_in2-1)' at line 1
+INSERT INTO thong_tin_lien_he (`ghi_chu`, `email`, `sdt`, `name`, `so_luong`, `cit_name`, `image`) VALUES (s,,,Máy in hóa đơn Rongta RP58B,2,Nam ??nh,may_in2-1) /may-in/lien-he-dat-mua.html
+26/10/2020 02:12:02 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com,0546471324,Máy in hóa đơn Rongta RP58B,2,Nam ??nh,may_in2-1)' at line 1
+INSERT INTO thong_tin_lien_he (`ghi_chu`, `email`, `sdt`, `name`, `so_luong`, `cit_name`, `image`) VALUES (vfr3ev,aaa@gmail.com,0546471324,Máy in hóa đơn Rongta RP58B,2,Nam ??nh,may_in2-1) /may-in/lien-he-dat-mua.html
+27/10/2020 01:42:29 AM Duplicate entry '1' for key 'PRIMARY'
+INSERT INTO comment (`CommentID`,`url_cm`,`cm_user`,`Content`,`CreateDate`) VALUES ('1','/may-in/may-in-hoa-don-xprinter-xp-58iih-3.html','hfdchgxhgh','jftccjc',NOW()) /ajax/reply_comment.php
+27/10/2020 02:06:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/may-in/may-in-hoa-don-antech-a80-use-7.html ORDER BY Id DESC LIMIT 1' at line 1
+SELECT Id FROM comment WHERE `url_cm` = /may-in/may-in-hoa-don-antech-a80-use-7.html ORDER BY Id DESC LIMIT 1 /ajax/comment.php
+27/10/2020 02:07:34 AM Unknown column 'Id' in 'field list'
+SELECT Id FROM comment WHERE `url_cm` = '/may-in/may-in-hoa-don-antech-a80-use-7.html' ORDER BY Id DESC LIMIT 1 /ajax/comment.php
+27/10/2020 04:27:59 AM Unknown column 'url_cm' in 'where clause'
+SELECT * FROM mayinthecao WHERE url_cm = '/may-in/may-in-hoa-don-antech-a80-use-7.html' /may-in/may-in-hoa-don-antech-a80-use-7.html
+27/10/2020 04:36:04 AM Unknown column 'id' in 'where clause'
+UPDATE comment SET rating = rating + 1 WHERE id = 3 /may-in/may-in-hoa-don-antech-a80-use-7.html
+27/10/2020 04:37:19 AM Unknown column 'num_rate' in 'field list'
+UPDATE mayinthecao SET num_rate = num_rate + 1 WHERE id = 3 /may-in/may-in-hoa-don-antech-a80-use-7.html
+27/10/2020 04:41:31 AM Unknown column 'id' in 'where clause'
+UPDATE comment SET rating = rating + 1 WHERE id = 3 /may-in/may-in-hoa-don-antech-a80-use-7.html
+27/10/2020 04:41:48 AM Unknown column 'id' in 'where clause'
+UPDATE comment SET rating = rating + 1 WHERE id = 3 /may-in/may-in-hoa-don-antech-a80-use-7.html
+09/11/2020 04:26:30 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM articles LEFT JOIN categories ON articles.categoryid = categories.categoryid WHERE IsActive = 1 AND id =  /home/amp_detail.php
+09/11/2020 04:35:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM articles WHERE IsActive = 1 AND Id =  /home/amp_detail.php
+09/11/2020 04:36:32 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT * FROM articles WHERE IsActive = 1 AND id =  /home/amp_detail.php
+11/11/2020 03:56:52 AM Unknown column 'view' in 'field list'
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,categoryname,ShortTitle,view,category_parent_id
+                            FROM articles 
+                            LEFT JOIN categories ON articles.categoryid = categories.categoryid
+                            WHERE IsActive = 1 AND articles.categoryid = 8 
+                            ORDER BY view DESC, Id DESC LIMIT 5 /game-app-8.html
+12/11/2020 03:44:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+        ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+                            ORDER BY Id DESC LIMIT 6 /home/amp_app_game_detail.php
+12/11/2020 03:46:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-mad-skills-motocross-2-693.html
+12/11/2020 03:49:52 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-mad-skills-motocross-2-693.html
+12/11/2020 03:50:24 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+        ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+                            ORDER BY Id DESC LIMIT 6 /home/amp_app_game_detail.php
+12/11/2020 03:50:35 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+        ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+                            ORDER BY Id DESC LIMIT 6 /home/amp_app_game_detail.php
+12/11/2020 03:51:15 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+        ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+                            ORDER BY Id DESC LIMIT 6 /home/amp_app_game_detail.php
+12/11/2020 03:51:45 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+        ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 1 
+                            ORDER BY Id DESC LIMIT 6 /home/amp_app_game_detail.php
+12/11/2020 03:52:25 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+       ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+                            ORDER BY Id DESC LIMIT 6 /game-app/game-homescapes-694.html
+12/11/2020 03:53:09 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-homescapes-694.html
+13/11/2020 01:01:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-mad-skills-motocross-2-693.html
+13/11/2020 01:16:41 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-homescapes-694.html
+13/11/2020 01:16:49 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-mad-skills-motocross-2-693.html
+13/11/2020 09:23:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-mad-skills-motocross-2-693.html
+14/11/2020 02:44:31 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 693 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-mad-skills-motocross-2-693.html
+24/11/2020 01:23:47 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 692 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 692 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-bai-789-692.html
+24/11/2020 08:20:16 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 692 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 692 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-bai-789-692.html
+24/11/2020 08:20:37 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 685 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 685 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/hu-no-39-685.html
+24/11/2020 08:20:39 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 692 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 692 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-bai-789-692.html
+25/11/2020 03:06:54 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+       ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+                            ORDER BY Id DESC LIMIT 6 /game-app/game-homescapes-694.html
+25/11/2020 03:07:21 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 689 
+       ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 689 
+                            ORDER BY Id DESC LIMIT 6 /game-app/game-bai-68-689.html
+07/12/2020 01:20:58 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 5' at line 1
+SELECT * FROM faqs WHERE FaqID <>  LIMIT 5 /amp-chuyen-muc-hoi-dap/toi-rut-tien-sau-30-phut-van-chua-thay-ve-tai-khoan-16.html
+09/12/2020 02:39:23 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-homescapes-694.html
+11/12/2020 02:05:20 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 691 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 691 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/trum-79-club-691.html
+11/12/2020 03:08:03 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-homescapes-694.html
+11/12/2020 03:20:38 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 694 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-homescapes-694.html
+12/12/2020 03:04:54 AM Cannot select database: banthe247_db /
+12/12/2020 03:04:55 AM Cannot select database: banthe247_db /user/GetListCardTypeByProviderId?PrividerId=1
+12/12/2020 03:04:57 AM Cannot select database: banthe247_db /tin-tuc-1.html
+12/12/2020 03:05:03 AM Cannot select database: banthe247_db /tin-tuc-1.html
+12/12/2020 03:07:41 AM Table 'banthe247_db.newstable' doesn't exist
+SELECT * FROM `newstable` WHERE Type = '101' AND IsActive='1' /
+08/02/2021 09:25:59 AM You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE categories.CategoryID = articles.category_parent_id AND Id != 850 
+      ' at line 4
+SELECT Id,articles.categoryid,PublicDate,articles.Intro,articles.MetaDesc,ImageUrl,Title,ShortTitle,category_parent_id,new_tdgy,new_ndgy
+                            FROM articles  
+                            LEFT JOIN categories ON categories.CategoryID = 
+                            WHERE categories.CategoryID = articles.category_parent_id AND Id != 850 
+                            ORDER BY Id DESC LIMIT 6 /amp-game-app/game-vampires-fall-origins-850.html
