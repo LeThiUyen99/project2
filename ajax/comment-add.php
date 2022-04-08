@@ -1,0 +1,14 @@
+<?php
+require_once("../functions/functions.php"); 
+require_once("../classes/database.php");
+$commentId = isset($_POST['comment_id']) ? $_POST['comment_id'] : "";
+$comment = isset($_POST['comment']) ? $_POST['comment'] : "";
+$commentSenderName = isset($_POST['name']) ? $_POST['name'] : "";
+$date = date('Y-m-d H:i:s');
+$sql = "INSERT INTO comment(parent_cm_id,Content,cm_user,CreateDate) VALUES ('" . $commentId . "','" . $comment . "','" . $commentSenderName . "','" . $date . "')";
+$result = mysqli_query($conn, $sql);
+if (! $result) {
+    $result = mysqli_error($conn);
+}
+echo $result;
+?>

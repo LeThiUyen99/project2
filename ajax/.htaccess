@@ -1,0 +1,10 @@
+<Files "adminaddmoneytocustommer.php">
+    Order deny,allow
+    Deny from all
+	allow from 14.162.144.184
+	allow from 118.70.126.231
+	allow from 27.3.179.20
+	allow from 123.24.206.25
+	allow from 43.239.223.225
+	allow from 43.239.223.224
+</Files>
